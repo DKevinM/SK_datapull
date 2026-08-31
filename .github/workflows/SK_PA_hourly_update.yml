@@ -1,0 +1,77 @@
+name: SK_PA_hourly_update
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch:  # Allow manual triggers
+  push:
+    branches: [ main ]
+    paths:
+      - 'web/SK_PA_latest.py'
+
+concurrency:
+  group: sk-purpleair-update
+  cancel-in-progress: true
+     
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository   
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gdal-bin libgdal-dev
+      
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests pytz supabase geopandas
+      
+      - name: Run PurpleAir data collection
+        run: python  web/SK_PA_latest.py
+        env:
+          PURPLEAIR_API_KEY: ${{ secrets.PURPLEAIR_API_KEY }}
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      
+      - name: Commit and push if data changed
+        env:
+          PURPLEAIR_API_KEY: ${{ secrets.PURPLEAIR_API_KEY }}
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+
+          git add data/SK_PM25_map.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update SK PurpleAir data"
+
+            git fetch origin main
+
+            git reset --hard origin/main
+
+            python web/SK_PA_latest.py
+
+            git add data/SK_PM25_map.json
+
+            git commit -m "Update SK PurpleAir data" || echo "No changes"
+
+            git push origin main
+          fi

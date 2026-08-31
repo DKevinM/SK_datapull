@@ -1,0 +1,84 @@
+name: Train AQHI Models
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: sk-train-aqhi-models
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          pip install pandas numpy scikit-learn joblib
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages("Cubist", repos="https://cloud.r-project.org")'
+
+      - name: Create models directory
+        run: |
+          mkdir -p models
+
+      - name: Train Random Forest models
+        run: |
+          python scripts/train_rf_model.py
+
+      - name: Train Cubist models
+        run: |
+          Rscript scripts/train_cubist_model.R
+
+      - name: Show model outputs
+        run: |
+          ls -lh models/
+
+      - name: Configure git
+        run: |
+          git config --global http.postBuffer 524288000
+          git config --global core.compression 0
+
+      - name: Compress model files individually
+        run: |
+          gzip -9 models/*.pkl
+          gzip -9 models/*.rds
+
+      - name: Show compressed model sizes
+        run: |
+          ls -lh models/   
+          
+      - name: Commit trained models
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github.com"
+
+          git add models/
+
+          if git diff --cached --quiet; then
+            echo "No model changes"
+          else
+            git commit -m "Update AQHI forecast models"
+
+            git pull --rebase origin main
+
+            git push origin main
+          fi

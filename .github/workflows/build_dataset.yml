@@ -1,0 +1,68 @@
+name: Build Training Dataset
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: sk-build-training-dataset
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install pandas numpy
+
+      - name: Run dataset build script
+        run: |
+          python scripts/build_training_dataset.py
+
+      - name: Show dataset info
+        run: |
+          ls -lh data/
+
+      - name: Commit training dataset
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git stash
+
+          git pull --rebase origin main
+
+          git stash pop || true
+
+          git add data/training_dataset.csv.gz
+
+          if git diff --cached --quiet; then
+            echo "No dataset changes"
+          else
+
+            git commit -m "Update training dataset"
+
+            git push || (
+              echo "Push failed — retrying..."
+              git pull --rebase origin main
+              git push
+            )
+
+          fi

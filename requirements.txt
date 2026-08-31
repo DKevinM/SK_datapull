@@ -1,0 +1,11 @@
+pandas
+numpy
+requests
+geopandas
+shapely
+supabase
+pytz
+xarray
+scikit-learn
+joblib
+playwright

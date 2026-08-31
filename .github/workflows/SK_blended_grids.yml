@@ -1,0 +1,73 @@
+name: Build SK Blended AQHI Grids
+  
+on:
+  schedule:
+    # Run hourly after the current data and PurpleAir workflows have had time to update.
+    - cron: '25 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'web/SK_regina_blended_grid.py'
+      - 'scripts/build_current.py'
+      - '.github/workflows/SK_blended_grids.yml'
+      - 'models/**'
+      - 'data/stations.csv'
+      - 'data/SK.*'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sk-blended-aqhi-grids
+  cancel-in-progress: true
+
+jobs:
+  build-grids:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy requests shapely geopandas pyogrio fiona scikit-learn joblib lxml
+
+      - name: Build current station features
+        run: |
+          python scripts/build_current.py
+
+      - name: Build blended current and forecast grids
+        run: |
+          python web/SK_regina_blended_grid.py
+
+      - name: Build ECCC AQHI forecasts
+        run: python scripts/build_eccc_forecasts.py
+
+      - name: Commit updated grid outputs
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+
+          git pull --rebase --autostash origin main
+
+          git add data/current_features.csv
+          git add data/current_map.geojson
+          git add data/sk_current_blend.geojson
+          git add data/sk_forecast_3h_blend.geojson
+          git add data/regina_current_blend.geojson
+          git add data/regina_forecast_3h_blend.geojson
+          git add data/station_forecast_3h_debug.csv
+          git add data/aqhi_forecasts.geojson
+
+          git commit -m 'Update SK blended AQHI grids' || echo 'No changes to commit'
+          git push origin main

@@ -1,0 +1,67 @@
+name: Build Current AQHI Features
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: build-current-aqhi
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          pip install pandas numpy requests
+
+      # -------------------------
+      # BUILD CURRENT FEATURES
+      # -------------------------
+      - name: Build current AQHI feature table
+        run: |
+          python scripts/build_current.py
+
+      # -------------------------
+      # COMMIT OUTPUTS
+      # -------------------------
+      - name: Commit and push outputs
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add data/current_map.geojson
+          git add data/current_features.csv
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update current AQHI feature map"
+
+            git pull --rebase origin main
+
+            git push origin main || (
+              echo "Push failed, retrying..."
+
+              git pull --rebase origin main
+
+              git push origin main
+            )
+          fi

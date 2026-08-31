@@ -1,0 +1,2380 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.29647,
+          49.235546
+        ]
+      },
+      "properties": {
+        "sensor_index": 266614,
+        "name": "Pit 8 PRM2(new2025)",
+        "pm25": 7.628205128205128,
+        "pm_raw": 11.9,
+        "pm_corrected_original": 7.628205128205128,
+        "pm_corrected_clean": 7.628205128205128,
+        "humidity": 90.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:28+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.412155,
+          49.64833
+        ]
+      },
+      "properties": {
+        "sensor_index": 272918,
+        "name": "Shaunavon Public School",
+        "pm25": 2.538860103626943,
+        "pm_raw": 2.8,
+        "pm_corrected_original": 2.538860103626943,
+        "pm_corrected_clean": 2.538860103626943,
+        "humidity": 28.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:34+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.465164,
+          50.62064
+        ]
+      },
+      "properties": {
+        "sensor_index": 273075,
+        "name": "Cabri School",
+        "pm25": 5.984455958549223,
+        "pm_raw": 6.6,
+        "pm_corrected_original": 5.984455958549223,
+        "pm_corrected_clean": 5.984455958549223,
+        "humidity": 24.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:27+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.54468,
+          50.892162
+        ]
+      },
+      "properties": {
+        "sensor_index": 273085,
+        "name": "Leader Composite School",
+        "pm25": 7.525906735751296,
+        "pm_raw": 8.3,
+        "pm_corrected_original": 7.525906735751296,
+        "pm_corrected_clean": 7.525906735751296,
+        "humidity": 24.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:56+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.56434,
+          49.20535
+        ]
+      },
+      "properties": {
+        "sensor_index": 273087,
+        "name": "Frontier School",
+        "pm25": 2.8108808290155443,
+        "pm_raw": 3.1,
+        "pm_corrected_original": 2.8108808290155443,
+        "pm_corrected_clean": 2.8108808290155443,
+        "humidity": 30.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:33+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.478874,
+          50.09238
+        ]
+      },
+      "properties": {
+        "sensor_index": 273081,
+        "name": "Gull Lake School",
+        "pm25": 5.440414507772021,
+        "pm_raw": 6.0,
+        "pm_corrected_original": 5.440414507772021,
+        "pm_corrected_clean": 5.440414507772021,
+        "humidity": 22.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:50+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.786,
+          50.298973
+        ]
+      },
+      "properties": {
+        "sensor_index": 273091,
+        "name": "Swift Current Comprehensive High School",
+        "pm25": 5.440414507772021,
+        "pm_raw": 6.0,
+        "pm_corrected_original": 5.440414507772021,
+        "pm_corrected_clean": 5.440414507772021,
+        "humidity": 26.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:30+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.52249,
+          49.29447
+        ]
+      },
+      "properties": {
+        "sensor_index": 273097,
+        "name": "Consul School",
+        "pm25": 1.4209726443768997,
+        "pm_raw": 1.7,
+        "pm_corrected_original": 1.4209726443768997,
+        "pm_corrected_clean": 1.4209726443768997,
+        "humidity": 45.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:08+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.40226,
+          50.44632
+        ]
+      },
+      "properties": {
+        "sensor_index": 13089,
+        "name": "East Regina",
+        "pm25": 5.467289719626168,
+        "pm_raw": 7.8,
+        "pm_corrected_original": 5.467289719626168,
+        "pm_corrected_clean": 5.467289719626168,
+        "humidity": 64.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:05+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.28809,
+          52.32907
+        ]
+      },
+      "properties": {
+        "sensor_index": 278055,
+        "name": "Aberdeen",
+        "pm25": 8.846153846153847,
+        "pm_raw": 13.8,
+        "pm_corrected_original": 8.846153846153847,
+        "pm_corrected_clean": 8.846153846153847,
+        "humidity": 76.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:19+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05532,
+          50.01725
+        ]
+      },
+      "properties": {
+        "sensor_index": 279087,
+        "name": "Avonlea",
+        "pm25": 6.603343465045594,
+        "pm_raw": 7.9,
+        "pm_corrected_original": 6.603343465045594,
+        "pm_corrected_clean": 6.603343465045594,
+        "humidity": 45.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:06+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.53042,
+          50.425274
+        ]
+      },
+      "properties": {
+        "sensor_index": 280276,
+        "name": "Olive Grove, Regina SK",
+        "pm25": 10.542505592841163,
+        "pm_raw": 14.5,
+        "pm_corrected_original": 10.542505592841163,
+        "pm_corrected_clean": 10.542505592841163,
+        "humidity": 61.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:51+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.49968,
+          50.3942
+        ]
+      },
+      "properties": {
+        "sensor_index": 280344,
+        "name": "Holy Trinity Catholic School Division Board Office",
+        "pm25": 8.570598489250436,
+        "pm_raw": 10.0,
+        "pm_corrected_original": 8.570598489250436,
+        "pm_corrected_clean": 8.570598489250436,
+        "humidity": 41.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:17+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.81751,
+          54.64922
+        ]
+      },
+      "properties": {
+        "sensor_index": 284004,
+        "name": "#1 Admin Exterior",
+        "pm25": 10.1669449081803,
+        "pm_raw": 11.6,
+        "pm_corrected_original": 10.1669449081803,
+        "pm_corrected_clean": 10.1669449081803,
+        "humidity": 37.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:44+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.815796,
+          54.62586
+        ]
+      },
+      "properties": {
+        "sensor_index": 284296,
+        "name": "#2_Comms Tower Sea Can",
+        "pm25": 12.97161936560935,
+        "pm_raw": 14.8,
+        "pm_corrected_original": 12.97161936560935,
+        "pm_corrected_clean": 12.97161936560935,
+        "humidity": 37.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:49+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.898796,
+          55.437378
+        ]
+      },
+      "properties": {
+        "sensor_index": 286266,
+        "name": "Village Office",
+        "pm25": 7.93398533007335,
+        "pm_raw": 11.8,
+        "pm_corrected_original": 7.93398533007335,
+        "pm_corrected_clean": 7.93398533007335,
+        "humidity": 67.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:05+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.7334,
+          49.24228
+        ]
+      },
+      "properties": {
+        "sensor_index": 287588,
+        "name": "AQSU-Parks Canada Ops",
+        "pm25": 3.7613981762917934,
+        "pm_raw": 4.5,
+        "pm_corrected_original": 3.7613981762917934,
+        "pm_corrected_clean": 3.7613981762917934,
+        "humidity": 45.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:17+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.71199,
+          51.876564
+        ]
+      },
+      "properties": {
+        "sensor_index": 288558,
+        "name": "Whitecap Dakota Nation",
+        "pm25": 1.7481662591687042,
+        "pm_raw": 2.6,
+        "pm_corrected_original": 1.7481662591687042,
+        "pm_corrected_clean": 1.7481662591687042,
+        "humidity": 67.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:07+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.21893,
+          52.609673
+        ]
+      },
+      "properties": {
+        "sensor_index": 288554,
+        "name": "Kinistin Saulteaux Nation",
+        "pm25": 5.576923076923077,
+        "pm_raw": 8.7,
+        "pm_corrected_original": 5.576923076923077,
+        "pm_corrected_clean": 5.576923076923077,
+        "humidity": 73.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:08+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.49045,
+          53.089066
+        ]
+      },
+      "properties": {
+        "sensor_index": 291698,
+        "name": "Muskoday First Nation",
+        "pm25": 10.76923076923077,
+        "pm_raw": 16.8,
+        "pm_corrected_original": 10.76923076923077,
+        "pm_corrected_clean": 10.76923076923077,
+        "humidity": 70.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:23+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.7409,
+          53.19702
+        ]
+      },
+      "properties": {
+        "sensor_index": 31411,
+        "name": "SPSA Radio Technical Services",
+        "pm25": 9.423076923076922,
+        "pm_raw": 14.7,
+        "pm_corrected_original": 9.423076923076922,
+        "pm_corrected_clean": 9.423076923076922,
+        "humidity": 100.0,
+        "method": "avg",
+        "quality_flag": "high_rh",
+        "use_for_map": true,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:03:05+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.07989,
+          53.92445
+        ]
+      },
+      "properties": {
+        "sensor_index": 296059,
+        "name": "Waskesiu Lake #2",
+        "pm25": 13.205128205128206,
+        "pm_raw": 20.6,
+        "pm_corrected_original": 13.205128205128206,
+        "pm_corrected_clean": 13.205128205128206,
+        "humidity": 72.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:53+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.67302,
+          50.530582
+        ]
+      },
+      "properties": {
+        "sensor_index": 35205,
+        "name": "Indian Head",
+        "pm25": 1.2179487179487178,
+        "pm_raw": 1.9,
+        "pm_corrected_original": 1.2179487179487178,
+        "pm_corrected_clean": 1.2179487179487178,
+        "humidity": 74.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:35+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.0625,
+          51.49611
+        ]
+      },
+      "properties": {
+        "sensor_index": 37889,
+        "name": "AQSU-3317",
+        "pm25": 2.0512820512820515,
+        "pm_raw": 3.2,
+        "pm_corrected_original": 2.0512820512820515,
+        "pm_corrected_clean": 2.0512820512820515,
+        "humidity": 70.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:17+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.40431,
+          54.135418
+        ]
+      },
+      "properties": {
+        "sensor_index": 39067,
+        "name": "Flying Dust First Nation - MLTC",
+        "pm25": 6.923076923076923,
+        "pm_raw": 10.8,
+        "pm_corrected_original": 6.923076923076923,
+        "pm_corrected_clean": 6.923076923076923,
+        "humidity": 89.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:43+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.64186,
+          52.184166
+        ]
+      },
+      "properties": {
+        "sensor_index": 304766,
+        "name": "Saskatoon Rugby Club",
+        "pm25": 12.48730964467005,
+        "pm_raw": 16.8,
+        "pm_corrected_original": 12.48730964467005,
+        "pm_corrected_clean": 12.48730964467005,
+        "humidity": 59.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:41+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.823364,
+          51.0445
+        ]
+      },
+      "properties": {
+        "sensor_index": 316984,
+        "name": "Craik School",
+        "pm25": 10.760626398210292,
+        "pm_raw": 14.8,
+        "pm_corrected_original": 10.760626398210292,
+        "pm_corrected_clean": 10.760626398210292,
+        "humidity": 61.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:47+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.37766,
+          54.915436
+        ]
+      },
+      "properties": {
+        "sensor_index": 317728,
+        "name": "AQSU-9880",
+        "pm25": 13.125,
+        "pm_raw": 15.6,
+        "pm_corrected_original": 13.125,
+        "pm_corrected_clean": 13.125,
+        "humidity": 44.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:34+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.582375,
+          55.16035
+        ]
+      },
+      "properties": {
+        "sensor_index": 80139,
+        "name": "La Plonge - ERFN - MLTC Monitor",
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
+        "humidity": 76.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:13+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.94493,
+          55.187683
+        ]
+      },
+      "properties": {
+        "sensor_index": 80157,
+        "name": "Pelican Narrows",
+        "pm25": 15.601001669449083,
+        "pm_raw": 17.8,
+        "pm_corrected_original": 15.601001669449083,
+        "pm_corrected_clean": 15.601001669449083,
+        "humidity": 37.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:31+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.8363,
+          59.25535
+        ]
+      },
+      "properties": {
+        "sensor_index": 80169,
+        "name": "Stony Rapids SPSA",
+        "pm25": 25.662308129619102,
+        "pm_raw": 29.6,
+        "pm_corrected_original": 25.662308129619102,
+        "pm_corrected_clean": 25.662308129619102,
+        "humidity": 39.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:04+00:00",
+        "eAQHI": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.16032,
+          55.15998
+        ]
+      },
+      "properties": {
+        "sensor_index": 80177,
+        "name": "Canoe Lake Cree Nation, SK (MLTC Sensor)",
+        "pm25": 18.574766355140184,
+        "pm_raw": 26.5,
+        "pm_corrected_original": 18.574766355140184,
+        "pm_corrected_clean": 18.574766355140184,
+        "humidity": 64.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:41+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.24024,
+          56.323864
+        ]
+      },
+      "properties": {
+        "sensor_index": 80181,
+        "name": "Southend Health Centre Suite ^",
+        "pm25": 9.193548387096774,
+        "pm_raw": 11.4,
+        "pm_corrected_original": 9.193548387096774,
+        "pm_corrected_clean": 9.193548387096774,
+        "humidity": null,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:12+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.58253,
+          52.327534
+        ]
+      },
+      "properties": {
+        "sensor_index": 83945,
+        "name": "Warman",
+        "pm25": 12.179487179487179,
+        "pm_raw": 19.0,
+        "pm_corrected_original": 12.179487179487179,
+        "pm_corrected_clean": 12.179487179487179,
+        "humidity": 100.0,
+        "method": "avg",
+        "quality_flag": "high_rh",
+        "use_for_map": true,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:01:36+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.655334,
+          52.28792
+        ]
+      },
+      "properties": {
+        "sensor_index": 83949,
+        "name": "Martensville",
+        "pm25": 11.456953642384107,
+        "pm_raw": 17.3,
+        "pm_corrected_original": 11.456953642384107,
+        "pm_corrected_clean": 11.456953642384107,
+        "humidity": 68.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:21+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.615204,
+          52.104385
+        ]
+      },
+      "properties": {
+        "sensor_index": 83977,
+        "name": "Saskatoon East",
+        "pm25": 8.397435897435898,
+        "pm_raw": 13.1,
+        "pm_corrected_original": 8.397435897435898,
+        "pm_corrected_clean": 8.397435897435898,
+        "humidity": 93.0,
+        "method": "avg",
+        "quality_flag": "high_rh",
+        "use_for_map": true,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:02:36+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.92564,
+          55.92818
+        ]
+      },
+      "properties": {
+        "sensor_index": 90265,
+        "name": "Buffalo River Dene Nation - MLTC",
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
+        "humidity": 48.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:32+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.92746,
+          55.178722
+        ]
+      },
+      "properties": {
+        "sensor_index": 94193,
+        "name": "Pelican Narrow",
+        "pm25": 15.590481786133962,
+        "pm_raw": 18.3,
+        "pm_corrected_original": 15.590481786133962,
+        "pm_corrected_clean": 15.590481786133962,
+        "humidity": 42.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:03+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.29466,
+          55.099724
+        ]
+      },
+      "properties": {
+        "sensor_index": 95507,
+        "name": "La Ronge",
+        "pm25": 7.682119205298014,
+        "pm_raw": 11.6,
+        "pm_corrected_original": 7.682119205298014,
+        "pm_corrected_clean": 7.682119205298014,
+        "humidity": 68.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:13+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.91855,
+          55.11413
+        ]
+      },
+      "properties": {
+        "sensor_index": 106306,
+        "name": "Hall Lake",
+        "pm25": 11.732548359966358,
+        "pm_raw": 18.0,
+        "pm_corrected_original": 11.732548359966358,
+        "pm_corrected_clean": 11.732548359966358,
+        "humidity": 69.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:42+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.52927,
+          50.41701
+        ]
+      },
+      "properties": {
+        "sensor_index": 132003,
+        "name": "AQSU-Wascana",
+        "pm25": 5.466231772831926,
+        "pm_raw": 7.7,
+        "pm_corrected_original": 5.466231772831926,
+        "pm_corrected_clean": 5.466231772831926,
+        "humidity": 63.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:29+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.86062,
+          49.6659
+        ]
+      },
+      "properties": {
+        "sensor_index": 132901,
+        "name": "Weyburn Arenas",
+        "pm25": 9.278350515463917,
+        "pm_raw": 12.0,
+        "pm_corrected_original": 9.278350515463917,
+        "pm_corrected_clean": 9.278350515463917,
+        "humidity": 55.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:52+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.660446,
+          50.501785
+        ]
+      },
+      "properties": {
+        "sensor_index": 134938,
+        "name": "NWR Weather",
+        "pm25": 15.955882352941178,
+        "pm_raw": 21.7,
+        "pm_corrected_original": 15.955882352941178,
+        "pm_corrected_clean": 15.955882352941178,
+        "humidity": 60.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:04+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.611,
+          50.440098
+        ]
+      },
+      "properties": {
+        "sensor_index": 136784,
+        "name": "Johnson Shoyama Graduate School of Public Policy \u2014 University of Regina",
+        "pm25": 11.370967741935484,
+        "pm_raw": 14.1,
+        "pm_corrected_original": 11.370967741935484,
+        "pm_corrected_clean": 11.370967741935484,
+        "humidity": null,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:05+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.17209,
+          49.669876
+        ]
+      },
+      "properties": {
+        "sensor_index": 137258,
+        "name": "AQSU-E4DB",
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
+        "humidity": 95.0,
+        "method": "avg",
+        "quality_flag": "high_rh",
+        "use_for_map": true,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:03:13+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.671135,
+          52.118786
+        ]
+      },
+      "properties": {
+        "sensor_index": 137774,
+        "name": "Poplar",
+        "pm25": 7.832829046898639,
+        "pm_raw": 10.9,
+        "pm_corrected_original": 7.832829046898639,
+        "pm_corrected_clean": 7.832829046898639,
+        "humidity": 62.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:42+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.692894,
+          52.1087
+        ]
+      },
+      "properties": {
+        "sensor_index": 143522,
+        "name": "Saskatoon French School",
+        "pm25": 11.689723320158102,
+        "pm_raw": 16.9,
+        "pm_corrected_original": 11.689723320158102,
+        "pm_corrected_clean": 11.689723320158102,
+        "humidity": 65.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:39+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.583755,
+          52.14765
+        ]
+      },
+      "properties": {
+        "sensor_index": 143688,
+        "name": "St. Joseph High School",
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
+        "humidity": 60.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:50+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.773705,
+          52.340893
+        ]
+      },
+      "properties": {
+        "sensor_index": 145074,
+        "name": "Dalmeny Downtown",
+        "pm25": 12.352264006139677,
+        "pm_raw": 17.4,
+        "pm_corrected_original": 12.352264006139677,
+        "pm_corrected_clean": 12.352264006139677,
+        "humidity": 63.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:36+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.97285,
+          50.788033
+        ]
+      },
+      "properties": {
+        "sensor_index": 149618,
+        "name": "NWR Weather 2",
+        "pm25": 10.687919463087248,
+        "pm_raw": 14.7,
+        "pm_corrected_original": 10.687919463087248,
+        "pm_corrected_clean": 10.687919463087248,
+        "humidity": 61.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:22+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.70854,
+          49.469376
+        ]
+      },
+      "properties": {
+        "sensor_index": 151158,
+        "name": "Goodwater Field Office",
+        "pm25": 16.902485659655834,
+        "pm_raw": 20.8,
+        "pm_corrected_original": 16.902485659655834,
+        "pm_corrected_clean": 16.902485659655834,
+        "humidity": 49.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:20+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.85062,
+          49.658752
+        ]
+      },
+      "properties": {
+        "sensor_index": 151386,
+        "name": "Weyburn",
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
+        "humidity": 74.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:13+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.63257,
+          50.451645
+        ]
+      },
+      "properties": {
+        "sensor_index": 152154,
+        "name": "Mosaic Stadium",
+        "pm25": 13.12455892731122,
+        "pm_raw": 17.3,
+        "pm_corrected_original": 13.12455892731122,
+        "pm_corrected_clean": 13.12455892731122,
+        "humidity": 57.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:02+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.27013,
+          57.652084
+        ]
+      },
+      "properties": {
+        "sensor_index": 157597,
+        "name": "Rook I Camp",
+        "pm25": 13.51036269430052,
+        "pm_raw": 14.9,
+        "pm_corrected_original": 13.51036269430052,
+        "pm_corrected_clean": 13.51036269430052,
+        "humidity": 25.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:08+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.61149,
+          52.090675
+        ]
+      },
+      "properties": {
+        "sensor_index": 166031,
+        "name": "Saskatoon Eastview",
+        "pm25": 11.665329052969504,
+        "pm_raw": 17.1,
+        "pm_corrected_original": 11.665329052969504,
+        "pm_corrected_clean": 11.665329052969504,
+        "humidity": 66.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:53+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.98449,
+          52.739178
+        ]
+      },
+      "properties": {
+        "sensor_index": 175687,
+        "name": "AQSU-41A9",
+        "pm25": 11.474358974358973,
+        "pm_raw": 17.9,
+        "pm_corrected_original": 11.474358974358973,
+        "pm_corrected_clean": 11.474358974358973,
+        "humidity": 100.0,
+        "method": "avg",
+        "quality_flag": "high_rh",
+        "use_for_map": true,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:02:03+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.53532,
+          49.663673
+        ]
+      },
+      "properties": {
+        "sensor_index": 192963,
+        "name": "Cypress Hills Prov Park SPSA",
+        "pm25": 2.096774193548387,
+        "pm_raw": 2.6,
+        "pm_corrected_original": 2.096774193548387,
+        "pm_corrected_clean": 2.096774193548387,
+        "humidity": null,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:16+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.97832,
+          50.41516
+        ]
+      },
+      "properties": {
+        "sensor_index": 193097,
+        "name": "Pense",
+        "pm25": 12.722077073807968,
+        "pm_raw": 15.9,
+        "pm_corrected_original": 12.722077073807968,
+        "pm_corrected_clean": 12.722077073807968,
+        "humidity": 51.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:55+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.63419,
+          50.44997
+        ]
+      },
+      "properties": {
+        "sensor_index": 193110,
+        "name": "Mosaic Stadium Upper Level",
+        "pm25": 11.778846153846153,
+        "pm_raw": 14.0,
+        "pm_corrected_original": 11.778846153846153,
+        "pm_corrected_clean": 11.778846153846153,
+        "humidity": 44.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:02+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.87072,
+          51.976357
+        ]
+      },
+      "properties": {
+        "sensor_index": 195477,
+        "name": "Colonsay",
+        "pm25": 8.942542787286063,
+        "pm_raw": 13.3,
+        "pm_corrected_original": 8.942542787286063,
+        "pm_corrected_clean": 8.942542787286063,
+        "humidity": 67.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:02+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.13111,
+          51.92633
+        ]
+      },
+      "properties": {
+        "sensor_index": 195505,
+        "name": "Delisle",
+        "pm25": 2.3076923076923075,
+        "pm_raw": 3.6,
+        "pm_corrected_original": 2.3076923076923075,
+        "pm_corrected_clean": 2.3076923076923075,
+        "humidity": 100.0,
+        "method": "avg",
+        "quality_flag": "high_rh",
+        "use_for_map": true,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:02:05+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.44209,
+          51.633156
+        ]
+      },
+      "properties": {
+        "sensor_index": 195511,
+        "name": "Hanley",
+        "pm25": 3.4615384615384617,
+        "pm_raw": 5.4,
+        "pm_corrected_original": 3.4615384615384617,
+        "pm_corrected_clean": 3.4615384615384617,
+        "humidity": 70.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:20+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.57988,
+          50.42745
+        ]
+      },
+      "properties": {
+        "sensor_index": 195823,
+        "name": "Leibel Field",
+        "pm25": 8.21301247771836,
+        "pm_raw": 9.7,
+        "pm_corrected_original": 8.21301247771836,
+        "pm_corrected_clean": 8.21301247771836,
+        "humidity": 43.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:03+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.593544,
+          52.107727
+        ]
+      },
+      "properties": {
+        "sensor_index": 196017,
+        "name": "Wildwood",
+        "pm25": 11.85123042505593,
+        "pm_raw": 16.3,
+        "pm_corrected_original": 11.85123042505593,
+        "pm_corrected_clean": 11.85123042505593,
+        "humidity": 61.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:43+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.78,
+          50.3135
+        ]
+      },
+      "properties": {
+        "sensor_index": 196429,
+        "name": "All Saints Catholic School",
+        "pm25": 2.7419354838709675,
+        "pm_raw": 3.4,
+        "pm_corrected_original": 2.7419354838709675,
+        "pm_corrected_clean": 2.7419354838709675,
+        "humidity": null,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:00:48+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.40426,
+          49.65119
+        ]
+      },
+      "properties": {
+        "sensor_index": 196479,
+        "name": "Christ The King School",
+        "pm25": null,
+        "pm_raw": 3335.4,
+        "pm_corrected_original": 3024.326424870467,
+        "pm_corrected_clean": null,
+        "humidity": 22.0,
+        "method": "avg",
+        "quality_flag": "implausible_high_gt1500",
+        "use_for_map": false,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:01:49+00:00",
+        "eAQHI": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.58396,
+          50.471775
+        ]
+      },
+      "properties": {
+        "sensor_index": 209603,
+        "name": "FHQTC LRES Urban Office",
+        "pm25": 11.744017403915882,
+        "pm_raw": 15.8,
+        "pm_corrected_original": 11.744017403915882,
+        "pm_corrected_clean": 11.744017403915882,
+        "humidity": 59.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:46+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.87685,
+          53.003407
+        ]
+      },
+      "properties": {
+        "sensor_index": 209845,
+        "name": "AQSU-Muskeg Lake",
+        "pm25": 13.846153846153847,
+        "pm_raw": 21.6,
+        "pm_corrected_original": 13.846153846153847,
+        "pm_corrected_clean": 13.846153846153847,
+        "humidity": 72.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:46+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.724525,
+          55.51217
+        ]
+      },
+      "properties": {
+        "sensor_index": 209863,
+        "name": "AQSU-CAPMoN_PHL",
+        "pm25": 10.556234718826405,
+        "pm_raw": 15.7,
+        "pm_corrected_original": 10.556234718826405,
+        "pm_corrected_clean": 10.556234718826405,
+        "humidity": 67.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:38+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.78721,
+          50.756958
+        ]
+      },
+      "properties": {
+        "sensor_index": 211611,
+        "name": "FHQTC LRES Treaty Four Territory Air Quality Monitor",
+        "pm25": 2.854077253218884,
+        "pm_raw": 3.8,
+        "pm_corrected_original": 2.854077253218884,
+        "pm_corrected_clean": 2.854077253218884,
+        "humidity": 58.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:31+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.80666,
+          53.174923
+        ]
+      },
+      "properties": {
+        "sensor_index": 214441,
+        "name": "AQSU-Mistawasis",
+        "pm25": 14.730866274179984,
+        "pm_raw": 22.6,
+        "pm_corrected_original": 14.730866274179984,
+        "pm_corrected_clean": 14.730866274179984,
+        "humidity": 69.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:33+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5863,
+          50.414642
+        ]
+      },
+      "properties": {
+        "sensor_index": 217321,
+        "name": "University of Regina Turf Field",
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
+        "humidity": 59.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:18+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.63352,
+          50.45109
+        ]
+      },
+      "properties": {
+        "sensor_index": 218169,
+        "name": "Mosaic Stadium Sideline (2)",
+        "pm25": 12.483039348710992,
+        "pm_raw": 16.0,
+        "pm_corrected_original": 12.483039348710992,
+        "pm_corrected_clean": 12.483039348710992,
+        "humidity": 54.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:28+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.631836,
+          52.1678
+        ]
+      },
+      "properties": {
+        "sensor_index": 220665,
+        "name": "SAS / Saskatoon Kinsmen Henk Ruys Soccer Centre",
+        "pm25": 11.443298969072165,
+        "pm_raw": 14.8,
+        "pm_corrected_original": 11.443298969072165,
+        "pm_corrected_clean": 11.443298969072165,
+        "humidity": 55.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:17+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.78715,
+          50.761063
+        ]
+      },
+      "properties": {
+        "sensor_index": 223245,
+        "name": "All Nations Healing Hospital/FHQTC Health Services",
+        "pm25": 1.3709677419354838,
+        "pm_raw": 1.7,
+        "pm_corrected_original": 1.3709677419354838,
+        "pm_corrected_clean": 1.3709677419354838,
+        "humidity": null,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:46+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.79673,
+          50.93659
+        ]
+      },
+      "properties": {
+        "sensor_index": 224705,
+        "name": "St. Henry's Sr School",
+        "pm25": 0.8333333333333334,
+        "pm_raw": 1.3,
+        "pm_corrected_original": 0.8333333333333334,
+        "pm_corrected_clean": 0.8333333333333334,
+        "humidity": 71.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:00+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.478065,
+          51.215965
+        ]
+      },
+      "properties": {
+        "sensor_index": 225117,
+        "name": "Century Field YRHS",
+        "pm25": null,
+        "pm_raw": null,
+        "pm_corrected_original": null,
+        "pm_corrected_clean": null,
+        "humidity": 72.0,
+        "method": "extreme_diff",
+        "quality_flag": "missing_pm",
+        "use_for_map": false,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:02:12+00:00",
+        "eAQHI": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.0674,
+          49.41989
+        ]
+      },
+      "properties": {
+        "sensor_index": 226573,
+        "name": "Mankota Public School",
+        "pm25": 4.987046632124353,
+        "pm_raw": 5.5,
+        "pm_corrected_original": 4.987046632124353,
+        "pm_corrected_clean": 4.987046632124353,
+        "humidity": 30.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:00+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.504524,
+          50.796543
+        ]
+      },
+      "properties": {
+        "sensor_index": 226635,
+        "name": "Central Butte School",
+        "pm25": 6.66110183639399,
+        "pm_raw": 7.6,
+        "pm_corrected_original": 6.66110183639399,
+        "pm_corrected_clean": 6.66110183639399,
+        "humidity": 37.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:58+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.99798,
+          49.62498
+        ]
+      },
+      "properties": {
+        "sensor_index": 226639,
+        "name": "Assiniboia Composite High School",
+        "pm25": 4.274193548387097,
+        "pm_raw": 5.3,
+        "pm_corrected_original": 4.274193548387097,
+        "pm_corrected_clean": 4.274193548387097,
+        "humidity": 50.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 17:57:13+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.56045,
+          49.872833
+        ]
+      },
+      "properties": {
+        "sensor_index": 227149,
+        "name": "\u00c9cole Gravelbourg School",
+        "pm25": null,
+        "pm_raw": null,
+        "pm_corrected_original": null,
+        "pm_corrected_clean": null,
+        "humidity": 51.0,
+        "method": "extreme_diff",
+        "quality_flag": "missing_pm",
+        "use_for_map": false,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:02:31+00:00",
+        "eAQHI": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.55701,
+          50.40043
+        ]
+      },
+      "properties": {
+        "sensor_index": 227173,
+        "name": "Prairie South School Division Office",
+        "pm25": 6.167400881057269,
+        "pm_raw": 7.0,
+        "pm_corrected_original": 6.167400881057269,
+        "pm_corrected_clean": 6.167400881057269,
+        "humidity": 36.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:04+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.90163,
+          50.19128
+        ]
+      },
+      "properties": {
+        "sensor_index": 227183,
+        "name": "Rouleau School",
+        "pm25": 13.343828715365241,
+        "pm_raw": 16.3,
+        "pm_corrected_original": 13.343828715365241,
+        "pm_corrected_clean": 13.343828715365241,
+        "humidity": 48.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:29+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.23633,
+          52.403618
+        ]
+      },
+      "properties": {
+        "sensor_index": 229353,
+        "name": "Borden",
+        "pm25": 10.576923076923077,
+        "pm_raw": 16.5,
+        "pm_corrected_original": 10.576923076923077,
+        "pm_corrected_clean": 10.576923076923077,
+        "humidity": 71.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:29+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.73341,
+          52.48632
+        ]
+      },
+      "properties": {
+        "sensor_index": 229921,
+        "name": "Cudworth",
+        "pm25": 1.6352429296591733,
+        "pm_raw": 2.2,
+        "pm_corrected_original": 1.6352429296591733,
+        "pm_corrected_clean": 1.6352429296591733,
+        "humidity": 59.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:03:00+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.029366,
+          52.740547
+        ]
+      },
+      "properties": {
+        "sensor_index": 231289,
+        "name": "AQSU-One Arrow",
+        "pm25": 7.059902200488997,
+        "pm_raw": 10.5,
+        "pm_corrected_original": 7.059902200488997,
+        "pm_corrected_clean": 7.059902200488997,
+        "humidity": 67.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:24+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.90229,
+          51.62307
+        ]
+      },
+      "properties": {
+        "sensor_index": 240955,
+        "name": "Cote First Nation",
+        "pm25": 0.8186195826645265,
+        "pm_raw": 1.2,
+        "pm_corrected_original": 0.8186195826645265,
+        "pm_corrected_clean": 0.8186195826645265,
+        "humidity": 66.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:50+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.0205,
+          49.837444
+        ]
+      },
+      "properties": {
+        "sensor_index": 240967,
+        "name": "Ocean Man First Nation",
+        "pm25": 7.495794785534062,
+        "pm_raw": 11.5,
+        "pm_corrected_original": 7.495794785534062,
+        "pm_corrected_clean": 7.495794785534062,
+        "humidity": 69.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:42+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.90961,
+          51.71805
+        ]
+      },
+      "properties": {
+        "sensor_index": 241461,
+        "name": "Keeseekoose First Nation",
+        "pm25": 1.0256410256410258,
+        "pm_raw": 1.6,
+        "pm_corrected_original": 1.0256410256410258,
+        "pm_corrected_clean": 1.0256410256410258,
+        "humidity": 70.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:41+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.12954,
+          51.78237
+        ]
+      },
+      "properties": {
+        "sensor_index": 241481,
+        "name": "The Key First Nation",
+        "pm25": 7.564102564102564,
+        "pm_raw": 11.8,
+        "pm_corrected_original": 7.564102564102564,
+        "pm_corrected_clean": 7.564102564102564,
+        "humidity": 100.0,
+        "method": "avg",
+        "quality_flag": "high_rh",
+        "use_for_map": true,
+        "use_for_model": false,
+        "last_seen": "2026-08-30 18:02:36+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.53438,
+          50.50322
+        ]
+      },
+      "properties": {
+        "sensor_index": 241487,
+        "name": "Kahkewistahaw First Nation",
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
+        "humidity": 0.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:49+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.909195,
+          53.59739
+        ]
+      },
+      "properties": {
+        "sensor_index": 246833,
+        "name": "Brightsand Lake",
+        "pm25": 9.337944664031621,
+        "pm_raw": 13.5,
+        "pm_corrected_original": 9.337944664031621,
+        "pm_corrected_clean": 9.337944664031621,
+        "humidity": 65.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:45+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.23615,
+          52.679237
+        ]
+      },
+      "properties": {
+        "sensor_index": 250667,
+        "name": "Redberry Research Center",
+        "pm25": 13.525641025641026,
+        "pm_raw": 21.1,
+        "pm_corrected_original": 13.525641025641026,
+        "pm_corrected_clean": 13.525641025641026,
+        "humidity": 76.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:21+00:00",
+        "eAQHI": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.551186,
+          50.40406
+        ]
+      },
+      "properties": {
+        "sensor_index": 251803,
+        "name": "Saskatchewan Polytechnic Moose Jaw Campus",
+        "pm25": 7.0525727069351225,
+        "pm_raw": 9.7,
+        "pm_corrected_original": 7.0525727069351225,
+        "pm_corrected_clean": 7.0525727069351225,
+        "humidity": 61.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:02:22+00:00",
+        "eAQHI": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.62862,
+          52.306683
+        ]
+      },
+      "properties": {
+        "sensor_index": 252811,
+        "name": "AQSU-Yellow Quill",
+        "pm25": 1.4102564102564104,
+        "pm_raw": 2.2,
+        "pm_corrected_original": 1.4102564102564104,
+        "pm_corrected_clean": 1.4102564102564104,
+        "humidity": 73.0,
+        "method": "avg",
+        "quality_flag": "valid",
+        "use_for_map": true,
+        "use_for_model": true,
+        "last_seen": "2026-08-30 18:01:30+00:00",
+        "eAQHI": 1
+      }
+    }
+  ]
+}

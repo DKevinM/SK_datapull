@@ -1,0 +1,69 @@
+name: Update SK PurpleAir Sensors
+
+on:
+  schedule:
+    - cron: '30 6 * * *'   # once daily at 06:30 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: sk-purpleair-sensors
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+
+  update-sensors:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gdal-bin libgdal-dev
+
+      - name: Install Python packages
+        run: |
+          pip install pandas geopandas requests supabase
+
+      - name: Run SK PurpleAir sensor pull
+        run: |
+          python web/PA_SK_pull.py
+        env:
+          PURPLEAIR_API_KEY: ${{ secrets.PURPLEAIR_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+
+      - name: Commit and push updated sensor list
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add data/SK_PA_sensors.csv
+
+          if git diff --cached --quiet; then
+            echo "No changes detected"
+          else
+            git commit -m "Update SK PurpleAir sensors"
+
+            git pull --rebase origin main
+
+            git push origin main || (
+              echo "Retrying push..."
+
+              git pull --rebase origin main
+
+              git push origin main
+            )
+          fi
