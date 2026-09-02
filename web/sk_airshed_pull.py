@@ -58,8 +58,8 @@ ROW_RE = re.compile(r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$")
 def health_canada_aqhi(no2_ppb, o3_ppb, pm25_ugm3):
     import math
     return (1000.0 / 10.4) * (
-        math.exp(0.000537 * no2_ppb) +
-        math.exp(0.000871 * o3_ppb) +
+        math.exp(0.000871 * no2_ppb) +
+        math.exp(0.000537 * o3_ppb) +
         math.exp(0.000487 * pm25_ugm3) - 3.0
     )
 
