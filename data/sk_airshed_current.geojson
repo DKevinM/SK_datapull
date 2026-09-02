@@ -6,6 +6,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -109.1667,
+          51.4667
+        ]
+      },
+      "properties": {
+        "station_name": "Kerrobert",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-09-02T07:00:00+00:00",
+        "NO": 0.3,
+        "NO2": 0.2,
+        "NOX": 5.0,
+        "O3": 13.6,
+        "PM2.5": 3.2,
+        "TEMP": 76.4,
+        "WS": 68.5,
+        "WD": 929.6,
+        "RH": 4.0,
+        "AQHI_calc": 1.31,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -102.0839,
           50.6497
         ]
