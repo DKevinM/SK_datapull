@@ -6,34 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.4,
-          52.2667
-        ]
-      },
-      "properties": {
-        "station_name": "Clavet",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-09-03T07:00:00+00:00",
-        "NO": 0.7,
-        "NO2": 1.1,
-        "NOX": 1.8,
-        "PM2.5": 3.0,
-        "TEMP": 17.7,
-        "WS": 0.5,
-        "WD": 98.2,
-        "RH": 80.8,
-        "AP": 946.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.1667,
           51.4667
         ]
@@ -42,17 +14,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-09-03T07:00:00+00:00",
-        "NO": 0.3,
-        "NO2": 0.3,
+        "reading_date": "2026-09-03T08:00:00+00:00",
+        "NO": 0.4,
+        "NO2": 0.2,
         "NOX": 7.0,
-        "O3": 16.7,
-        "PM2.5": 4.2,
-        "TEMP": 92.5,
-        "WS": 79.1,
+        "O3": 15.3,
+        "PM2.5": 3.6,
+        "TEMP": 102.0,
+        "WS": 83.3,
         "WD": 922.3,
         "RH": 6.0,
-        "AQHI_calc": 1.09,
+        "AQHI_calc": 0.98,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
