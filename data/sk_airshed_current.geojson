@@ -6,6 +6,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -109.1667,
+          51.4667
+        ]
+      },
+      "properties": {
+        "station_name": "Kerrobert",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-09-04T07:00:00+00:00",
+        "NO": 0.3,
+        "NO2": 0.4,
+        "NOX": 8.0,
+        "O3": 12.1,
+        "PM2.5": 2.4,
+        "TEMP": 313.1,
+        "WS": 61.1,
+        "WD": 926.9,
+        "RH": 7.0,
+        "AQHI_calc": 0.77,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -102.0839,
           50.6497
         ]
@@ -14,16 +43,48 @@
         "station_name": "Esterhazy",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-09-04T03:00:00+00:00",
-        "PM2.5": 5.8,
-        "TEMP": 18.1,
-        "WS": 1.0,
-        "WD": 109.2,
-        "RH": 74.4,
-        "AP": 951.5,
+        "reading_date": "2026-09-04T06:00:00+00:00",
+        "O3": 16.2,
+        "PM2.5": 5.9,
+        "TEMP": 16.1,
+        "WS": 0.5,
+        "WD": 72.6,
+        "RH": 85.0,
+        "AP": 952.2,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7194,
+          49.1936
+        ]
+      },
+      "properties": {
+        "station_name": "Glen Ewen",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-09-04T06:00:00+00:00",
+        "NO": 1.7,
+        "NO2": 0.7,
+        "NOX": 2.4,
+        "O3": -2.8,
+        "PM2.5": 3.1,
+        "TEMP": 6.4,
+        "WS": 12.7,
+        "WD": 0.7,
+        "RH": 103.2,
+        "AP": 97.8,
+        "AQI": 944.6,
+        "AQHI_calc": 0.06,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
       }
     },
     {
@@ -39,16 +100,22 @@
         "station_name": "Oxbow",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-09-04T03:00:00+00:00",
-        "TEMP": 6.5,
-        "WS": 15.7,
-        "WD": 2.8,
-        "RH": 67.0,
-        "AP": 97.0,
-        "AQI": 944.7,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
+        "reading_date": "2026-09-04T06:00:00+00:00",
+        "NO": -0.6,
+        "NO2": 4.3,
+        "NOX": 3.7,
+        "O3": 0.6,
+        "PM2.5": 1.1,
+        "TEMP": 5.8,
+        "WS": 13.8,
+        "WD": 2.0,
+        "RH": 88.5,
+        "AP": 100.0,
+        "AQI": 945.8,
+        "AQHI_calc": 0.44,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
       }
     },
     {
