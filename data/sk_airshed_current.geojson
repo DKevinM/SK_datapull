@@ -6,65 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-09-06T05:00:00+00:00",
-        "NO": 0.1,
-        "NO2": 0.0,
-        "NOX": -0.4,
-        "O3": 12.9,
-        "PM2.5": 4.0,
-        "TEMP": 13.9,
-        "WS": 0.6,
-        "WD": 9.0,
-        "RH": 74.7,
-        "AP": 965.3,
-        "AQI": 6.0,
-        "AQHI_calc": 0.86,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.4,
-          52.2667
-        ]
-      },
-      "properties": {
-        "station_name": "Clavet",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-09-06T05:00:00+00:00",
-        "NO": 0.6,
-        "NO2": 0.8,
-        "NOX": 1.4,
-        "PM2.5": 2.1,
-        "TEMP": 15.5,
-        "WS": 2.7,
-        "WD": 4.4,
-        "RH": 84.2,
-        "AP": 957.7,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.1667,
           51.4667
         ]
@@ -73,17 +14,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-09-06T05:00:00+00:00",
+        "reading_date": "2026-09-06T06:00:00+00:00",
         "NO": 0.4,
-        "NO2": 0.4,
-        "NOX": 11.0,
-        "O3": 12.4,
-        "PM2.5": 3.4,
-        "TEMP": 30.7,
-        "WS": 86.9,
-        "WD": 939.4,
-        "RH": 9.0,
-        "AQHI_calc": 0.84,
+        "NO2": 0.5,
+        "NOX": 10.0,
+        "O3": 11.6,
+        "PM2.5": 3.6,
+        "TEMP": 28.4,
+        "WS": 88.5,
+        "WD": 939.9,
+        "RH": 8.0,
+        "AQHI_calc": 0.81,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
