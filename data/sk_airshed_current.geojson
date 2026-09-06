@@ -14,119 +14,20 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-09-06T06:00:00+00:00",
+        "reading_date": "2026-09-06T07:00:00+00:00",
         "NO": 0.4,
         "NO2": 0.5,
-        "NOX": 10.0,
-        "O3": 11.6,
-        "PM2.5": 3.6,
-        "TEMP": 28.4,
-        "WS": 88.5,
+        "NOX": 8.0,
+        "O3": 11.8,
+        "PM2.5": 3.5,
+        "TEMP": 28.1,
+        "WS": 89.0,
         "WD": 939.9,
-        "RH": 8.0,
-        "AQHI_calc": 0.81,
+        "RH": 7.0,
+        "AQHI_calc": 0.82,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.1667,
-          49.2333
-        ]
-      },
-      "properties": {
-        "station_name": "Oxbow",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-09-06T03:00:00+00:00",
-        "TEMP": 7.9,
-        "WS": 22.2,
-        "WD": 1.7,
-        "RH": 91.0,
-        "AP": 82.3,
-        "AQI": 948.9,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.05,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Stoughton",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-09-06T03:00:00+00:00",
-        "TEMP": 11.1,
-        "WS": 21.9,
-        "WD": 1.4,
-        "RH": 232.2,
-        "AP": 76.9,
-        "AQI": 943.7,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.5333,
-          49.1333
-        ]
-      },
-      "properties": {
-        "station_name": "Torquay",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-09-06T03:00:00+00:00",
-        "NO": 1.4,
-        "NO2": 2.1,
-        "NOX": 16.1,
-        "O3": 22.0,
-        "PM2.5": 1.3,
-        "TEMP": 50.7,
-        "WS": 79.6,
-        "WD": 946.9,
-        "RH": 13.0,
-        "AQHI_calc": 1.38,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.9667,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Wauchope",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-09-06T03:00:00+00:00",
-        "NOX": 101.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
       }
     },
     {
@@ -142,15 +43,21 @@
         "station_name": "Weyburn",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-09-06T03:00:00+00:00",
-        "O3": 39.3,
-        "TEMP": 17.8,
-        "WS": 1.8,
-        "WD": 109.3,
-        "RH": 74.8,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
+        "reading_date": "2026-09-06T06:00:00+00:00",
+        "NO": 0.3,
+        "NO2": 1.4,
+        "NOX": 1.7,
+        "O3": 2.6,
+        "PM2.5": 3.7,
+        "TEMP": 9.6,
+        "WS": 0.8,
+        "WD": 52.2,
+        "RH": 83.7,
+        "AP": 19.0,
+        "AQHI_calc": 0.43,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
       }
     }
   ]
