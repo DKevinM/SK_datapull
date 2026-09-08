@@ -13,16 +13,16 @@
       "properties": {
         "sensor_index": 266614,
         "name": "Pit 8 PRM2(new2025)",
-        "pm25": 3.5897435897435894,
-        "pm_raw": 5.6,
-        "pm_corrected_original": 3.5897435897435894,
-        "pm_corrected_clean": 3.5897435897435894,
+        "pm25": 2.2435897435897436,
+        "pm_raw": 3.5,
+        "pm_corrected_original": 2.2435897435897436,
+        "pm_corrected_clean": 2.2435897435897436,
         "humidity": 100.0,
         "method": "avg",
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:01:09+00:00",
+        "last_seen": "2026-09-07 19:31:09+00:00",
         "eAQHI": 1
       }
     },
@@ -42,12 +42,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 48.0,
+        "humidity": 51.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:45+00:00",
+        "last_seen": "2026-09-07 19:30:45+00:00",
         "eAQHI": 1
       }
     },
@@ -63,16 +63,16 @@
       "properties": {
         "sensor_index": 271767,
         "name": "Waldeck Elementary & Jr High School",
-        "pm25": 0.5128205128205129,
-        "pm_raw": 0.8,
-        "pm_corrected_original": 0.5128205128205129,
-        "pm_corrected_clean": 0.5128205128205129,
-        "humidity": 78.0,
+        "pm25": 0.5769230769230769,
+        "pm_raw": 0.9,
+        "pm_corrected_original": 0.5769230769230769,
+        "pm_corrected_clean": 0.5769230769230769,
+        "humidity": 80.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:15+00:00",
+        "last_seen": "2026-09-07 19:31:16+00:00",
         "eAQHI": 1
       }
     },
@@ -88,17 +88,17 @@
       "properties": {
         "sensor_index": 272815,
         "name": "Success School",
-        "pm25": 14.935897435897436,
-        "pm_raw": 23.3,
-        "pm_corrected_original": 14.935897435897436,
-        "pm_corrected_clean": 14.935897435897436,
-        "humidity": 76.0,
+        "pm25": 1.5384615384615383,
+        "pm_raw": 2.4,
+        "pm_corrected_original": 1.5384615384615383,
+        "pm_corrected_clean": 1.5384615384615383,
+        "humidity": 81.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:08+00:00",
-        "eAQHI": 2
+        "last_seen": "2026-09-07 19:31:08+00:00",
+        "eAQHI": 1
       }
     },
     {
@@ -117,12 +117,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 56.0,
+        "humidity": 58.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:48+00:00",
+        "last_seen": "2026-09-07 19:30:48+00:00",
         "eAQHI": 1
       }
     },
@@ -142,12 +142,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 56.0,
+        "humidity": 59.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:36+00:00",
+        "last_seen": "2026-09-07 19:31:36+00:00",
         "eAQHI": 1
       }
     },
@@ -163,16 +163,16 @@
       "properties": {
         "sensor_index": 273075,
         "name": "Cabri School",
-        "pm25": 0.0,
-        "pm_raw": 0.0,
-        "pm_corrected_original": 0.0,
-        "pm_corrected_clean": 0.0,
-        "humidity": 77.0,
+        "pm25": 0.3205128205128205,
+        "pm_raw": 0.5,
+        "pm_corrected_original": 0.3205128205128205,
+        "pm_corrected_clean": 0.3205128205128205,
+        "humidity": 81.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:05+00:00",
+        "last_seen": "2026-09-07 19:31:05+00:00",
         "eAQHI": 1
       }
     },
@@ -192,12 +192,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 87.0,
+        "humidity": 88.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 18:59:57+00:00",
+        "last_seen": "2026-09-07 19:32:09+00:00",
         "eAQHI": 1
       }
     },
@@ -217,12 +217,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 47.0,
+        "humidity": 52.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:07+00:00",
+        "last_seen": "2026-09-07 19:31:07+00:00",
         "eAQHI": 1
       }
     },
@@ -247,7 +247,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:15+00:00",
+        "last_seen": "2026-09-07 19:32:16+00:00",
         "eAQHI": 1
       }
     },
@@ -263,16 +263,16 @@
       "properties": {
         "sensor_index": 273083,
         "name": "Herbert School",
-        "pm25": 0.8974358974358974,
-        "pm_raw": 1.4,
-        "pm_corrected_original": 0.8974358974358974,
-        "pm_corrected_clean": 0.8974358974358974,
-        "humidity": 73.0,
+        "pm25": 0.3973509933774835,
+        "pm_raw": 0.6,
+        "pm_corrected_original": 0.3973509933774835,
+        "pm_corrected_clean": 0.3973509933774835,
+        "humidity": 68.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:00:59+00:00",
+        "last_seen": "2026-09-07 19:30:59+00:00",
         "eAQHI": 1
       }
     },
@@ -292,12 +292,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 59.0,
+        "humidity": 57.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:45+00:00",
+        "last_seen": "2026-09-07 19:30:45+00:00",
         "eAQHI": 1
       }
     },
@@ -313,16 +313,16 @@
       "properties": {
         "sensor_index": 273091,
         "name": "Swift Current Comprehensive High School",
-        "pm25": 0.7051282051282052,
-        "pm_raw": 1.1,
-        "pm_corrected_original": 0.7051282051282052,
-        "pm_corrected_clean": 0.7051282051282052,
-        "humidity": 72.0,
+        "pm25": 0.641025641025641,
+        "pm_raw": 1.0,
+        "pm_corrected_original": 0.641025641025641,
+        "pm_corrected_clean": 0.641025641025641,
+        "humidity": 74.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:37+00:00",
+        "last_seen": "2026-09-07 19:31:37+00:00",
         "eAQHI": 1
       }
     },
@@ -347,7 +347,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:00:58+00:00",
+        "last_seen": "2026-09-07 19:30:59+00:00",
         "eAQHI": 1
       }
     },
@@ -367,12 +367,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 83.0,
+        "humidity": 84.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:08+00:00",
+        "last_seen": "2026-09-07 19:31:58+00:00",
         "eAQHI": 1
       }
     },
@@ -388,17 +388,17 @@
       "properties": {
         "sensor_index": 13089,
         "name": "East Regina",
-        "pm25": 0.0,
-        "pm_raw": 0.0,
-        "pm_corrected_original": 0.0,
-        "pm_corrected_clean": 0.0,
-        "humidity": 81.0,
+        "pm25": 31.794871794871796,
+        "pm_raw": 49.6,
+        "pm_corrected_original": 31.794871794871796,
+        "pm_corrected_clean": 31.794871794871796,
+        "humidity": 80.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:07+00:00",
-        "eAQHI": 1
+        "last_seen": "2026-09-07 19:32:07+00:00",
+        "eAQHI": 4
       }
     },
     {
@@ -417,12 +417,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 82.0,
+        "humidity": 83.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:30+00:00",
+        "last_seen": "2026-09-07 19:31:30+00:00",
         "eAQHI": 1
       }
     },
@@ -438,16 +438,16 @@
       "properties": {
         "sensor_index": 279087,
         "name": "Avonlea",
-        "pm25": 0.15172900494001412,
-        "pm_raw": 0.2,
-        "pm_corrected_original": 0.15172900494001412,
-        "pm_corrected_clean": 0.15172900494001412,
-        "humidity": 57.0,
+        "pm25": 0.5412371134020618,
+        "pm_raw": 0.7,
+        "pm_corrected_original": 0.5412371134020618,
+        "pm_corrected_clean": 0.5412371134020618,
+        "humidity": 55.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:31+00:00",
+        "last_seen": "2026-09-07 19:31:31+00:00",
         "eAQHI": 1
       }
     },
@@ -463,16 +463,16 @@
       "properties": {
         "sensor_index": 280276,
         "name": "Olive Grove, Regina SK",
-        "pm25": 0.06410256410256411,
-        "pm_raw": 0.1,
-        "pm_corrected_original": 0.06410256410256411,
-        "pm_corrected_clean": 0.06410256410256411,
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
         "humidity": 71.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:37+00:00",
+        "last_seen": "2026-09-07 19:31:37+00:00",
         "eAQHI": 1
       }
     },
@@ -492,12 +492,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 50.0,
+        "humidity": 52.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:23+00:00",
+        "last_seen": "2026-09-07 19:31:23+00:00",
         "eAQHI": 1
       }
     },
@@ -513,16 +513,16 @@
       "properties": {
         "sensor_index": 284004,
         "name": "#1 Admin Exterior",
-        "pm25": 1.9402420574886536,
-        "pm_raw": 2.7,
-        "pm_corrected_original": 1.9402420574886536,
-        "pm_corrected_clean": 1.9402420574886536,
-        "humidity": 62.0,
+        "pm25": 1.8589743589743588,
+        "pm_raw": 2.9,
+        "pm_corrected_original": 1.8589743589743588,
+        "pm_corrected_clean": 1.8589743589743588,
+        "humidity": 73.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:40+00:00",
+        "last_seen": "2026-09-07 19:31:40+00:00",
         "eAQHI": 1
       }
     },
@@ -538,16 +538,16 @@
       "properties": {
         "sensor_index": 284296,
         "name": "#2_Comms Tower Sea Can",
-        "pm25": 2.4209486166007905,
-        "pm_raw": 3.5,
-        "pm_corrected_original": 2.4209486166007905,
-        "pm_corrected_clean": 2.4209486166007905,
-        "humidity": 65.0,
+        "pm25": 2.1794871794871793,
+        "pm_raw": 3.4,
+        "pm_corrected_original": 2.1794871794871793,
+        "pm_corrected_clean": 2.1794871794871793,
+        "humidity": 72.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:36+00:00",
+        "last_seen": "2026-09-07 19:30:36+00:00",
         "eAQHI": 1
       }
     },
@@ -572,7 +572,7 @@
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:00:58+00:00",
+        "last_seen": "2026-09-07 19:30:59+00:00",
         "eAQHI": 1
       }
     },
@@ -592,12 +592,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 79.0,
+        "humidity": 80.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 18:59:57+00:00",
+        "last_seen": "2026-09-07 19:31:57+00:00",
         "eAQHI": 1
       }
     },
@@ -622,7 +622,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:12+00:00",
+        "last_seen": "2026-09-07 19:31:12+00:00",
         "eAQHI": 1
       }
     },
@@ -647,7 +647,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:15+00:00",
+        "last_seen": "2026-09-07 19:31:15+00:00",
         "eAQHI": 1
       }
     },
@@ -663,16 +663,16 @@
       "properties": {
         "sensor_index": 31411,
         "name": "SPSA Radio Technical Services",
-        "pm25": 0.3846153846153846,
-        "pm_raw": 0.6,
-        "pm_corrected_original": 0.3846153846153846,
-        "pm_corrected_clean": 0.3846153846153846,
+        "pm25": 0.1923076923076923,
+        "pm_raw": 0.3,
+        "pm_corrected_original": 0.1923076923076923,
+        "pm_corrected_clean": 0.1923076923076923,
         "humidity": 100.0,
         "method": "avg",
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:02:01+00:00",
+        "last_seen": "2026-09-07 19:32:01+00:00",
         "eAQHI": 1
       }
     },
@@ -688,16 +688,16 @@
       "properties": {
         "sensor_index": 296059,
         "name": "Waskesiu Lake #2",
-        "pm25": 0.641025641025641,
-        "pm_raw": 1.0,
-        "pm_corrected_original": 0.641025641025641,
-        "pm_corrected_clean": 0.641025641025641,
-        "humidity": 74.0,
+        "pm25": 1.7307692307692308,
+        "pm_raw": 2.7,
+        "pm_corrected_original": 1.7307692307692308,
+        "pm_corrected_clean": 1.7307692307692308,
+        "humidity": 73.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:00:27+00:00",
+        "last_seen": "2026-09-07 19:32:27+00:00",
         "eAQHI": 1
       }
     },
@@ -722,7 +722,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:14+00:00",
+        "last_seen": "2026-09-07 19:31:14+00:00",
         "eAQHI": 1
       }
     },
@@ -747,7 +747,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:55+00:00",
+        "last_seen": "2026-09-07 19:31:55+00:00",
         "eAQHI": 1
       }
     },
@@ -763,16 +763,16 @@
       "properties": {
         "sensor_index": 39067,
         "name": "Flying Dust First Nation - MLTC",
-        "pm25": 2.6282051282051277,
-        "pm_raw": 4.1,
-        "pm_corrected_original": 2.6282051282051277,
-        "pm_corrected_clean": 2.6282051282051277,
+        "pm25": 3.141025641025641,
+        "pm_raw": 4.9,
+        "pm_corrected_original": 3.141025641025641,
+        "pm_corrected_clean": 3.141025641025641,
         "humidity": 100.0,
         "method": "avg",
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:02:02+00:00",
+        "last_seen": "2026-09-07 19:30:02+00:00",
         "eAQHI": 1
       }
     },
@@ -797,7 +797,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:11+00:00",
+        "last_seen": "2026-09-07 19:31:11+00:00",
         "eAQHI": 1
       }
     },
@@ -822,7 +822,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:43+00:00",
+        "last_seen": "2026-09-07 19:31:43+00:00",
         "eAQHI": 1
       }
     },
@@ -838,16 +838,16 @@
       "properties": {
         "sensor_index": 317728,
         "name": "AQSU-9880",
-        "pm25": 1.2371134020618557,
-        "pm_raw": 1.6,
-        "pm_corrected_original": 1.2371134020618557,
-        "pm_corrected_clean": 1.2371134020618557,
-        "humidity": 55.0,
+        "pm25": 1.365561044460127,
+        "pm_raw": 1.8,
+        "pm_corrected_original": 1.365561044460127,
+        "pm_corrected_clean": 1.365561044460127,
+        "humidity": 57.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:14+00:00",
+        "last_seen": "2026-09-07 19:32:14+00:00",
         "eAQHI": 1
       }
     },
@@ -867,12 +867,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 69.0,
+        "humidity": 68.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:45+00:00",
+        "last_seen": "2026-09-07 19:32:45+00:00",
         "eAQHI": 1
       }
     },
@@ -888,16 +888,16 @@
       "properties": {
         "sensor_index": 80157,
         "name": "Pelican Narrows",
-        "pm25": 1.3373860182370823,
-        "pm_raw": 1.6,
-        "pm_corrected_original": 1.3373860182370823,
-        "pm_corrected_clean": 1.3373860182370823,
-        "humidity": 45.0,
+        "pm25": 1.0793357933579337,
+        "pm_raw": 1.3,
+        "pm_corrected_original": 1.0793357933579337,
+        "pm_corrected_clean": 1.0793357933579337,
+        "humidity": 46.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:39+00:00",
+        "last_seen": "2026-09-07 19:31:40+00:00",
         "eAQHI": 1
       }
     },
@@ -913,16 +913,16 @@
       "properties": {
         "sensor_index": 80169,
         "name": "Stony Rapids SPSA",
-        "pm25": 2.4240121580547114,
-        "pm_raw": 2.9,
-        "pm_corrected_original": 2.4240121580547114,
-        "pm_corrected_clean": 2.4240121580547114,
-        "humidity": 45.0,
+        "pm25": 2.4907749077490777,
+        "pm_raw": 3.0,
+        "pm_corrected_original": 2.4907749077490777,
+        "pm_corrected_clean": 2.4907749077490777,
+        "humidity": 46.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:46+00:00",
+        "last_seen": "2026-09-07 19:31:45+00:00",
         "eAQHI": 1
       }
     },
@@ -938,16 +938,16 @@
       "properties": {
         "sensor_index": 80177,
         "name": "Canoe Lake Cree Nation, SK (MLTC Sensor)",
-        "pm25": 12.647058823529413,
-        "pm_raw": 17.2,
-        "pm_corrected_original": 12.647058823529413,
-        "pm_corrected_clean": 12.647058823529413,
-        "humidity": 60.0,
+        "pm25": 11.642363775901764,
+        "pm_raw": 16.4,
+        "pm_corrected_original": 11.642363775901764,
+        "pm_corrected_clean": 11.642363775901764,
+        "humidity": 63.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 18:43:56+00:00",
+        "last_seen": "2026-09-07 19:31:22+00:00",
         "eAQHI": 2
       }
     },
@@ -963,16 +963,16 @@
       "properties": {
         "sensor_index": 80181,
         "name": "Southend Health Centre Suite ^",
-        "pm25": 1.532258064516129,
-        "pm_raw": 1.9,
-        "pm_corrected_original": 1.532258064516129,
-        "pm_corrected_clean": 1.532258064516129,
+        "pm25": 1.6129032258064517,
+        "pm_raw": 2.0,
+        "pm_corrected_original": 1.6129032258064517,
+        "pm_corrected_clean": 1.6129032258064517,
         "humidity": null,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:09+00:00",
+        "last_seen": "2026-09-07 19:32:09+00:00",
         "eAQHI": 1
       }
     },
@@ -997,7 +997,7 @@
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:01:53+00:00",
+        "last_seen": "2026-09-07 19:31:53+00:00",
         "eAQHI": 1
       }
     },
@@ -1017,12 +1017,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 93.0,
+        "humidity": 91.0,
         "method": "avg",
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:02:30+00:00",
+        "last_seen": "2026-09-07 19:32:30+00:00",
         "eAQHI": 1
       }
     },
@@ -1038,16 +1038,16 @@
       "properties": {
         "sensor_index": 83977,
         "name": "Saskatoon East",
-        "pm25": 0.06410256410256411,
-        "pm_raw": 0.1,
-        "pm_corrected_original": 0.06410256410256411,
-        "pm_corrected_clean": 0.06410256410256411,
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
         "humidity": 100.0,
         "method": "avg",
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:02:22+00:00",
+        "last_seen": "2026-09-07 19:32:22+00:00",
         "eAQHI": 1
       }
     },
@@ -1067,12 +1067,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 55.0,
+        "humidity": 56.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:08+00:00",
+        "last_seen": "2026-09-07 19:31:08+00:00",
         "eAQHI": 1
       }
     },
@@ -1088,16 +1088,16 @@
       "properties": {
         "sensor_index": 94193,
         "name": "Pelican Narrow",
-        "pm25": 0.8064516129032259,
-        "pm_raw": 1.0,
-        "pm_corrected_original": 0.8064516129032259,
-        "pm_corrected_clean": 0.8064516129032259,
-        "humidity": 50.0,
+        "pm25": 1.0564053537284896,
+        "pm_raw": 1.3,
+        "pm_corrected_original": 1.0564053537284896,
+        "pm_corrected_clean": 1.0564053537284896,
+        "humidity": 49.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:29+00:00",
+        "last_seen": "2026-09-07 19:31:29+00:00",
         "eAQHI": 1
       }
     },
@@ -1113,16 +1113,16 @@
       "properties": {
         "sensor_index": 95507,
         "name": "La Ronge",
-        "pm25": 0.6225296442687747,
-        "pm_raw": 0.9,
-        "pm_corrected_original": 0.6225296442687747,
-        "pm_corrected_clean": 0.6225296442687747,
-        "humidity": 65.0,
+        "pm25": 0.8411214953271027,
+        "pm_raw": 1.2,
+        "pm_corrected_original": 0.8411214953271027,
+        "pm_corrected_clean": 0.8411214953271027,
+        "humidity": 64.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:00:59+00:00",
+        "last_seen": "2026-09-07 19:32:59+00:00",
         "eAQHI": 1
       }
     },
@@ -1138,16 +1138,16 @@
       "properties": {
         "sensor_index": 106306,
         "name": "Hall Lake",
-        "pm25": 0.7692307692307692,
-        "pm_raw": 1.2,
-        "pm_corrected_original": 0.7692307692307692,
-        "pm_corrected_clean": 0.7692307692307692,
-        "humidity": 71.0,
+        "pm25": 1.3461538461538463,
+        "pm_raw": 2.1,
+        "pm_corrected_original": 1.3461538461538463,
+        "pm_corrected_clean": 1.3461538461538463,
+        "humidity": 72.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:37+00:00",
+        "last_seen": "2026-09-07 19:31:39+00:00",
         "eAQHI": 1
       }
     },
@@ -1167,12 +1167,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 74.0,
+        "humidity": 75.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:43+00:00",
+        "last_seen": "2026-09-07 19:31:43+00:00",
         "eAQHI": 1
       }
     },
@@ -1188,16 +1188,16 @@
       "properties": {
         "sensor_index": 132901,
         "name": "Weyburn Arenas",
-        "pm25": 0.08245177349097699,
+        "pm25": 0.07870060281312793,
         "pm_raw": 0.1,
-        "pm_corrected_original": 0.08245177349097699,
-        "pm_corrected_clean": 0.08245177349097699,
-        "humidity": 47.0,
+        "pm_corrected_original": 0.07870060281312793,
+        "pm_corrected_clean": 0.07870060281312793,
+        "humidity": 53.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:55+00:00",
+        "last_seen": "2026-09-07 19:32:55+00:00",
         "eAQHI": 1
       }
     },
@@ -1217,12 +1217,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 74.0,
+        "humidity": 73.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:21+00:00",
+        "last_seen": "2026-09-07 19:32:21+00:00",
         "eAQHI": 1
       }
     },
@@ -1247,7 +1247,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:53+00:00",
+        "last_seen": "2026-09-07 19:32:52+00:00",
         "eAQHI": 1
       }
     },
@@ -1267,12 +1267,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 67.0,
+        "humidity": 75.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:17+00:00",
+        "last_seen": "2026-09-07 19:31:17+00:00",
         "eAQHI": 1
       }
     },
@@ -1292,12 +1292,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 77.0,
+        "humidity": 76.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:23+00:00",
+        "last_seen": "2026-09-07 19:32:23+00:00",
         "eAQHI": 1
       }
     },
@@ -1313,16 +1313,16 @@
       "properties": {
         "sensor_index": 143522,
         "name": "Saskatoon French School",
-        "pm25": 0.06410256410256411,
-        "pm_raw": 0.1,
-        "pm_corrected_original": 0.06410256410256411,
-        "pm_corrected_clean": 0.06410256410256411,
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
         "humidity": 82.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:50+00:00",
+        "last_seen": "2026-09-07 19:31:50+00:00",
         "eAQHI": 1
       }
     },
@@ -1342,12 +1342,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 85.0,
+        "humidity": 84.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:45+00:00",
+        "last_seen": "2026-09-07 19:32:45+00:00",
         "eAQHI": 1
       }
     },
@@ -1363,16 +1363,16 @@
       "properties": {
         "sensor_index": 145074,
         "name": "Dalmeny Downtown",
-        "pm25": 0.8974358974358974,
-        "pm_raw": 1.4,
-        "pm_corrected_original": 0.8974358974358974,
-        "pm_corrected_clean": 0.8974358974358974,
+        "pm25": 0.5128205128205129,
+        "pm_raw": 0.8,
+        "pm_corrected_original": 0.5128205128205129,
+        "pm_corrected_clean": 0.5128205128205129,
         "humidity": 72.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:34+00:00",
+        "last_seen": "2026-09-07 19:31:34+00:00",
         "eAQHI": 1
       }
     },
@@ -1397,7 +1397,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:35+00:00",
+        "last_seen": "2026-09-07 19:32:36+00:00",
         "eAQHI": 1
       }
     },
@@ -1413,16 +1413,16 @@
       "properties": {
         "sensor_index": 151158,
         "name": "Goodwater Field Office",
-        "pm25": 7.879918588873813,
+        "pm25": 7.507251631617113,
         "pm_raw": 10.1,
-        "pm_corrected_original": 7.879918588873813,
-        "pm_corrected_clean": 7.879918588873813,
-        "humidity": 54.0,
+        "pm_corrected_original": 7.507251631617113,
+        "pm_corrected_clean": 7.507251631617113,
+        "humidity": 59.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:09+00:00",
+        "last_seen": "2026-09-07 19:32:09+00:00",
         "eAQHI": 1
       }
     },
@@ -1442,12 +1442,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 65.0,
+        "humidity": 71.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:00:59+00:00",
+        "last_seen": "2026-09-07 19:32:59+00:00",
         "eAQHI": 1
       }
     },
@@ -1463,16 +1463,16 @@
       "properties": {
         "sensor_index": 152154,
         "name": "Mosaic Stadium",
-        "pm25": 1.2179487179487178,
-        "pm_raw": 1.9,
-        "pm_corrected_original": 1.2179487179487178,
-        "pm_corrected_clean": 1.2179487179487178,
-        "humidity": 78.0,
+        "pm25": 1.0256410256410258,
+        "pm_raw": 1.6,
+        "pm_corrected_original": 1.0256410256410258,
+        "pm_corrected_clean": 1.0256410256410258,
+        "humidity": 82.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:51+00:00",
+        "last_seen": "2026-09-07 19:32:51+00:00",
         "eAQHI": 1
       }
     },
@@ -1497,7 +1497,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:12+00:00",
+        "last_seen": "2026-09-07 19:32:12+00:00",
         "eAQHI": 1
       }
     },
@@ -1522,7 +1522,7 @@
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:01:39+00:00",
+        "last_seen": "2026-09-07 19:31:39+00:00",
         "eAQHI": 1
       }
     },
@@ -1538,16 +1538,16 @@
       "properties": {
         "sensor_index": 192963,
         "name": "Cypress Hills Prov Park SPSA",
-        "pm25": 1.6129032258064517,
-        "pm_raw": 2.0,
-        "pm_corrected_original": 1.6129032258064517,
-        "pm_corrected_clean": 1.6129032258064517,
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
         "humidity": null,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:26+00:00",
+        "last_seen": "2026-09-07 19:32:26+00:00",
         "eAQHI": 1
       }
     },
@@ -1563,16 +1563,16 @@
       "properties": {
         "sensor_index": 193097,
         "name": "Pense",
-        "pm25": 0.07009345794392523,
-        "pm_raw": 0.1,
-        "pm_corrected_original": 0.07009345794392523,
-        "pm_corrected_clean": 0.07009345794392523,
-        "humidity": 64.0,
+        "pm25": 0.6389102072141213,
+        "pm_raw": 0.9,
+        "pm_corrected_original": 0.6389102072141213,
+        "pm_corrected_clean": 0.6389102072141213,
+        "humidity": 63.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:47+00:00",
+        "last_seen": "2026-09-07 19:32:47+00:00",
         "eAQHI": 1
       }
     },
@@ -1588,16 +1588,16 @@
       "properties": {
         "sensor_index": 193110,
         "name": "Mosaic Stadium Upper Level",
-        "pm25": 0.30927835051546393,
-        "pm_raw": 0.4,
-        "pm_corrected_original": 0.30927835051546393,
-        "pm_corrected_clean": 0.30927835051546393,
-        "humidity": 55.0,
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
+        "humidity": 56.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:32+00:00",
+        "last_seen": "2026-09-07 19:29:32+00:00",
         "eAQHI": 1
       }
     },
@@ -1613,16 +1613,16 @@
       "properties": {
         "sensor_index": 195477,
         "name": "Colonsay",
-        "pm25": 0.0,
-        "pm_raw": 0.0,
-        "pm_corrected_original": 0.0,
-        "pm_corrected_clean": 0.0,
+        "pm25": 0.3846153846153846,
+        "pm_raw": 0.6,
+        "pm_corrected_original": 0.3846153846153846,
+        "pm_corrected_clean": 0.3846153846153846,
         "humidity": 77.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:20+00:00",
+        "last_seen": "2026-09-07 19:32:21+00:00",
         "eAQHI": 1
       }
     },
@@ -1647,7 +1647,7 @@
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:02:38+00:00",
+        "last_seen": "2026-09-07 19:30:38+00:00",
         "eAQHI": 1
       }
     },
@@ -1672,7 +1672,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:18+00:00",
+        "last_seen": "2026-09-07 19:31:18+00:00",
         "eAQHI": 1
       }
     },
@@ -1692,12 +1692,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 50.0,
+        "humidity": 48.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:58+00:00",
+        "last_seen": "2026-09-07 19:31:58+00:00",
         "eAQHI": 1
       }
     },
@@ -1722,7 +1722,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:00:59+00:00",
+        "last_seen": "2026-09-07 19:30:59+00:00",
         "eAQHI": 1
       }
     },
@@ -1738,16 +1738,16 @@
       "properties": {
         "sensor_index": 196429,
         "name": "All Saints Catholic School",
-        "pm25": 0.6451612903225807,
-        "pm_raw": 0.8,
-        "pm_corrected_original": 0.6451612903225807,
-        "pm_corrected_clean": 0.6451612903225807,
+        "pm25": 0.08064516129032259,
+        "pm_raw": 0.1,
+        "pm_corrected_original": 0.08064516129032259,
+        "pm_corrected_clean": 0.08064516129032259,
         "humidity": null,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:30+00:00",
+        "last_seen": "2026-09-07 19:32:31+00:00",
         "eAQHI": 1
       }
     },
@@ -1764,15 +1764,15 @@
         "sensor_index": 196479,
         "name": "Christ The King School",
         "pm25": null,
-        "pm_raw": 3335.3,
-        "pm_corrected_original": 2858.551714119698,
+        "pm_raw": 3332.5,
+        "pm_corrected_original": 2803.7860576923076,
         "pm_corrected_clean": null,
-        "humidity": 41.0,
+        "humidity": 44.0,
         "method": "avg",
         "quality_flag": "implausible_high_gt1500",
         "use_for_map": false,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:02:04+00:00",
+        "last_seen": "2026-09-07 19:32:04+00:00",
         "eAQHI": null
       }
     },
@@ -1788,16 +1788,16 @@
       "properties": {
         "sensor_index": 209603,
         "name": "FHQTC LRES Urban Office",
-        "pm25": 0.7051282051282052,
-        "pm_raw": 1.1,
-        "pm_corrected_original": 0.7051282051282052,
-        "pm_corrected_clean": 0.7051282051282052,
+        "pm25": 0.1923076923076923,
+        "pm_raw": 0.3,
+        "pm_corrected_original": 0.1923076923076923,
+        "pm_corrected_clean": 0.1923076923076923,
         "humidity": 72.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:10+00:00",
+        "last_seen": "2026-09-07 19:31:10+00:00",
         "eAQHI": 1
       }
     },
@@ -1813,16 +1813,16 @@
       "properties": {
         "sensor_index": 209845,
         "name": "AQSU-Muskeg Lake",
-        "pm25": 0.06410256410256411,
-        "pm_raw": 0.1,
-        "pm_corrected_original": 0.06410256410256411,
-        "pm_corrected_clean": 0.06410256410256411,
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
         "humidity": 75.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:39+00:00",
+        "last_seen": "2026-09-07 19:30:39+00:00",
         "eAQHI": 1
       }
     },
@@ -1842,12 +1842,12 @@
         "pm_raw": 1.6,
         "pm_corrected_original": 1.0256410256410258,
         "pm_corrected_clean": 1.0256410256410258,
-        "humidity": 70.0,
+        "humidity": 72.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:49+00:00",
+        "last_seen": "2026-09-07 19:30:49+00:00",
         "eAQHI": 1
       }
     },
@@ -1867,12 +1867,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 64.0,
+        "humidity": 65.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:37+00:00",
+        "last_seen": "2026-09-07 19:31:38+00:00",
         "eAQHI": 1
       }
     },
@@ -1888,16 +1888,16 @@
       "properties": {
         "sensor_index": 214441,
         "name": "AQSU-Mistawasis",
-        "pm25": 2.4358974358974357,
-        "pm_raw": 3.8,
-        "pm_corrected_original": 2.4358974358974357,
-        "pm_corrected_clean": 2.4358974358974357,
+        "pm25": 2.0512820512820515,
+        "pm_raw": 3.2,
+        "pm_corrected_original": 2.0512820512820515,
+        "pm_corrected_clean": 2.0512820512820515,
         "humidity": 70.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:17+00:00",
+        "last_seen": "2026-09-07 19:31:17+00:00",
         "eAQHI": 1
       }
     },
@@ -1913,16 +1913,16 @@
       "properties": {
         "sensor_index": 217321,
         "name": "University of Regina Turf Field",
-        "pm25": 0.0,
-        "pm_raw": 0.0,
-        "pm_corrected_original": 0.0,
-        "pm_corrected_clean": 0.0,
-        "humidity": 74.0,
+        "pm25": 0.06410256410256411,
+        "pm_raw": 0.1,
+        "pm_corrected_original": 0.06410256410256411,
+        "pm_corrected_clean": 0.06410256410256411,
+        "humidity": 71.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:09+00:00",
+        "last_seen": "2026-09-07 19:31:09+00:00",
         "eAQHI": 1
       }
     },
@@ -1938,16 +1938,16 @@
       "properties": {
         "sensor_index": 218169,
         "name": "Mosaic Stadium Sideline (2)",
-        "pm25": 0.45626576955424725,
-        "pm_raw": 0.7,
-        "pm_corrected_original": 0.45626576955424725,
-        "pm_corrected_clean": 0.45626576955424725,
-        "humidity": 69.0,
+        "pm25": 0.06410256410256411,
+        "pm_raw": 0.1,
+        "pm_corrected_original": 0.06410256410256411,
+        "pm_corrected_clean": 0.06410256410256411,
+        "humidity": 70.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:16+00:00",
+        "last_seen": "2026-09-07 19:31:16+00:00",
         "eAQHI": 1
       }
     },
@@ -1967,12 +1967,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 74.0,
+        "humidity": 73.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:53+00:00",
+        "last_seen": "2026-09-07 19:31:52+00:00",
         "eAQHI": 1
       }
     },
@@ -1992,12 +1992,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 59.0,
+        "humidity": 67.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 18:59:57+00:00",
+        "last_seen": "2026-09-07 19:31:58+00:00",
         "eAQHI": 1
       }
     },
@@ -2013,16 +2013,16 @@
       "properties": {
         "sensor_index": 224705,
         "name": "St. Henry's Sr School",
-        "pm25": 0.12820512820512822,
-        "pm_raw": 0.2,
-        "pm_corrected_original": 0.12820512820512822,
-        "pm_corrected_clean": 0.12820512820512822,
-        "humidity": 73.0,
+        "pm25": 0.25641025641025644,
+        "pm_raw": 0.4,
+        "pm_corrected_original": 0.25641025641025644,
+        "pm_corrected_clean": 0.25641025641025644,
+        "humidity": 71.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:18+00:00",
+        "last_seen": "2026-09-07 19:32:18+00:00",
         "eAQHI": 1
       }
     },
@@ -2042,12 +2042,12 @@
         "pm_raw": null,
         "pm_corrected_original": null,
         "pm_corrected_clean": null,
-        "humidity": 80.0,
+        "humidity": 72.0,
         "method": "extreme_diff",
         "quality_flag": "missing_pm",
         "use_for_map": false,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:02:55+00:00",
+        "last_seen": "2026-09-07 19:30:55+00:00",
         "eAQHI": null
       }
     },
@@ -2067,12 +2067,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 41.0,
+        "humidity": 45.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:24+00:00",
+        "last_seen": "2026-09-07 19:31:25+00:00",
         "eAQHI": 1
       }
     },
@@ -2092,12 +2092,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 66.0,
+        "humidity": 68.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:48+00:00",
+        "last_seen": "2026-09-07 19:31:48+00:00",
         "eAQHI": 1
       }
     },
@@ -2113,16 +2113,16 @@
       "properties": {
         "sensor_index": 226639,
         "name": "Assiniboia Composite High School",
-        "pm25": 0.07186081694402421,
-        "pm_raw": 0.1,
-        "pm_corrected_original": 0.07186081694402421,
-        "pm_corrected_clean": 0.07186081694402421,
-        "humidity": 62.0,
+        "pm25": 0.0,
+        "pm_raw": 0.0,
+        "pm_corrected_original": 0.0,
+        "pm_corrected_clean": 0.0,
+        "humidity": 56.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:06+00:00",
+        "last_seen": "2026-09-07 19:31:06+00:00",
         "eAQHI": 1
       }
     },
@@ -2142,12 +2142,12 @@
         "pm_raw": null,
         "pm_corrected_original": null,
         "pm_corrected_clean": null,
-        "humidity": 51.0,
+        "humidity": 50.0,
         "method": "extreme_diff",
         "quality_flag": "missing_pm",
         "use_for_map": false,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:01:35+00:00",
+        "last_seen": "2026-09-07 19:31:35+00:00",
         "eAQHI": null
       }
     },
@@ -2163,16 +2163,16 @@
       "properties": {
         "sensor_index": 227167,
         "name": "Waskesiu Lake",
-        "pm25": 0.5298013245033114,
-        "pm_raw": 0.8,
-        "pm_corrected_original": 0.5298013245033114,
-        "pm_corrected_clean": 0.5298013245033114,
+        "pm25": 0.3973509933774835,
+        "pm_raw": 0.6,
+        "pm_corrected_original": 0.3973509933774835,
+        "pm_corrected_clean": 0.3973509933774835,
         "humidity": 68.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:30+00:00",
+        "last_seen": "2026-09-07 19:31:30+00:00",
         "eAQHI": 1
       }
     },
@@ -2192,12 +2192,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 58.0,
+        "humidity": 60.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:52+00:00",
+        "last_seen": "2026-09-07 19:31:53+00:00",
         "eAQHI": 1
       }
     },
@@ -2213,16 +2213,16 @@
       "properties": {
         "sensor_index": 227183,
         "name": "Rouleau School",
-        "pm25": 0.2803738317757009,
-        "pm_raw": 0.4,
-        "pm_corrected_original": 0.2803738317757009,
-        "pm_corrected_clean": 0.2803738317757009,
-        "humidity": 64.0,
+        "pm25": 0.14372163388804843,
+        "pm_raw": 0.2,
+        "pm_corrected_original": 0.14372163388804843,
+        "pm_corrected_clean": 0.14372163388804843,
+        "humidity": 62.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:21+00:00",
+        "last_seen": "2026-09-07 19:32:21+00:00",
         "eAQHI": 1
       }
     },
@@ -2238,16 +2238,16 @@
       "properties": {
         "sensor_index": 229353,
         "name": "Borden",
-        "pm25": 0.4487179487179487,
-        "pm_raw": 0.7,
-        "pm_corrected_original": 0.4487179487179487,
-        "pm_corrected_clean": 0.4487179487179487,
+        "pm25": 4.294871794871795,
+        "pm_raw": 6.7,
+        "pm_corrected_original": 4.294871794871795,
+        "pm_corrected_clean": 4.294871794871795,
         "humidity": 83.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:14+00:00",
+        "last_seen": "2026-09-07 19:32:14+00:00",
         "eAQHI": 1
       }
     },
@@ -2272,7 +2272,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:01+00:00",
+        "last_seen": "2026-09-07 19:31:01+00:00",
         "eAQHI": 1
       }
     },
@@ -2288,16 +2288,16 @@
       "properties": {
         "sensor_index": 231289,
         "name": "AQSU-One Arrow",
-        "pm25": 1.3461538461538463,
-        "pm_raw": 2.1,
-        "pm_corrected_original": 1.3461538461538463,
-        "pm_corrected_clean": 1.3461538461538463,
+        "pm25": 1.4102564102564104,
+        "pm_raw": 2.2,
+        "pm_corrected_original": 1.4102564102564104,
+        "pm_corrected_clean": 1.4102564102564104,
         "humidity": 72.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:01+00:00",
+        "last_seen": "2026-09-07 19:32:01+00:00",
         "eAQHI": 1
       }
     },
@@ -2317,12 +2317,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 72.0,
+        "humidity": 74.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:16+00:00",
+        "last_seen": "2026-09-07 19:31:16+00:00",
         "eAQHI": 1
       }
     },
@@ -2342,12 +2342,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 50.0,
+        "humidity": 57.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:01:03+00:00",
+        "last_seen": "2026-09-07 19:31:03+00:00",
         "eAQHI": 1
       }
     },
@@ -2367,12 +2367,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 76.0,
+        "humidity": 77.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:43+00:00",
+        "last_seen": "2026-09-07 19:28:43+00:00",
         "eAQHI": 1
       }
     },
@@ -2392,12 +2392,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 69.0,
+        "humidity": 72.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:51+00:00",
+        "last_seen": "2026-09-07 19:30:52+00:00",
         "eAQHI": 1
       }
     },
@@ -2417,12 +2417,12 @@
         "pm_raw": 0.0,
         "pm_corrected_original": 0.0,
         "pm_corrected_clean": 0.0,
-        "humidity": 63.0,
+        "humidity": 62.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:00:56+00:00",
+        "last_seen": "2026-09-07 19:30:56+00:00",
         "eAQHI": 1
       }
     },
@@ -2447,7 +2447,7 @@
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:35+00:00",
+        "last_seen": "2026-09-07 19:32:21+00:00",
         "eAQHI": 1
       }
     },
@@ -2463,16 +2463,16 @@
       "properties": {
         "sensor_index": 251803,
         "name": "Saskatchewan Polytechnic Moose Jaw Campus",
-        "pm25": 0.06410256410256411,
-        "pm_raw": 0.1,
-        "pm_corrected_original": 0.06410256410256411,
-        "pm_corrected_clean": 0.06410256410256411,
+        "pm25": 0.12820512820512822,
+        "pm_raw": 0.2,
+        "pm_corrected_original": 0.12820512820512822,
+        "pm_corrected_clean": 0.12820512820512822,
         "humidity": 100.0,
         "method": "avg",
         "quality_flag": "high_rh",
         "use_for_map": true,
         "use_for_model": false,
-        "last_seen": "2026-09-07 19:02:29+00:00",
+        "last_seen": "2026-09-07 19:32:30+00:00",
         "eAQHI": 1
       }
     },
@@ -2488,16 +2488,16 @@
       "properties": {
         "sensor_index": 252811,
         "name": "AQSU-Yellow Quill",
-        "pm25": 0.12820512820512822,
-        "pm_raw": 0.2,
-        "pm_corrected_original": 0.12820512820512822,
-        "pm_corrected_clean": 0.12820512820512822,
-        "humidity": 75.0,
+        "pm25": 0.06410256410256411,
+        "pm_raw": 0.1,
+        "pm_corrected_original": 0.06410256410256411,
+        "pm_corrected_clean": 0.06410256410256411,
+        "humidity": 76.0,
         "method": "avg",
         "quality_flag": "valid",
         "use_for_map": true,
         "use_for_model": true,
-        "last_seen": "2026-09-07 19:02:07+00:00",
+        "last_seen": "2026-09-07 19:32:07+00:00",
         "eAQHI": 1
       }
     }
