@@ -1,15 +1,31 @@
 """Pull live AirPointer readings from Saskatchewan's regional airshed associations
 (WYAMZ - Western Yellowhead Air Management Zone, SESAA - Southeast Saskatchewan
-Airshed Association) and push to Supabase + a GeoJSON snapshot for SK_Air_Map.
+Airshed Association, GPAZ - Great Plains Air Zone) and push to Supabase + a
+GeoJSON snapshot for SK_Air_Map.
 
 Each station page only exposes a rolling last-24h table, server-rendered behind
 a Cloudflare JS challenge - a plain HTTP GET gets a 403, so this uses a headless
-browser. Both sites publish "Crawl-delay: 10" in robots.txt; STATION_DELAY_SEC
+browser. Both WYAMZ/SESAA publish "Crawl-delay: 10" in robots.txt; STATION_DELAY_SEC
 below honors that between page loads. Data itself only updates hourly, so this
 is meant to run once/hour, not more often.
 
 Data is explicitly raw/unvalidated per the source sites themselves
 ("has not passed through a processed baseline adjustment or validation").
+
+GPAZ note (2026-09-16): of GPAZ's 3 stations listed in Saskatchewan's own
+gov station registry, only East Regina is actually live. Its URL differs from
+the registry's stale `airquality.php?AP=EastRegina` link - the real, current
+one uses `airqualityCB.php?CB=EastRegina`, found via GPAZ's own site nav.
+Belle Plaine/Pense (`CB=BellePlaine`, `CB=Pense`) return no data table at all
+(page renders with zero rows), and Yorkton (`CB=Yorkton`) returns a real table
+frozen at 2023-05-03 - both confirmed dead, not a URL-naming issue, so only
+East Regina is wired in below. GPAZ's H1 is just "GPAZ" (no per-station name
+unlike WYAMZ/SESAA's own H1), and its column set adds SO2/H2S/PRE and drops
+the "AQI" column WYAMZ/SESAA has (GPAZ publishes its own "AQHI" column
+instead) - both handled via the `name`/`param_columns` overrides below. GPAZ's
+own AQHI column is intentionally NOT ingested (same choice already made for
+WYAMZ/SESAA's own "AQI" column) - AQHI_calc below computes it ourselves from
+NO2/O3/PM2.5 for a consistent formula across every station on the map.
 """
 import json
 import os
@@ -43,6 +59,9 @@ STATIONS = [
     {"network": "SESAA", "province": "SK", "url": "https://sesaa.ca/torquay-air-quality/", "lat": 49.1333, "lon": -103.5333},
     {"network": "SESAA", "province": "SK", "url": "https://sesaa.ca/wauchope-air-quality/", "lat": 49.6667, "lon": -101.9667},
     {"network": "SESAA", "province": "SK", "url": "https://sesaa.ca/weyburn-air-quality/", "lat": 49.6608, "lon": -103.8500},
+    {"network": "GPAZ", "province": "SK", "url": "https://www.gpaz.org/airquality/airqualityCB.php?CB=EastRegina",
+     "lat": 50.453414, "lon": -104.50604, "name": "East Regina",
+     "param_columns": ["NO", "NO2", "NOX", "SO2", "H2S", "O3", "PM2.5", "TEMP", "WS", "WD", "RH", "AP", "PRE"]},
 ]
 
 PARAM_COLUMNS = ["NO", "NO2", "NOX", "O3", "PM2.5", "TEMP", "WS", "WD", "RH", "AP", "AQI"]
@@ -91,14 +110,21 @@ def parse_station(page, station):
     page.goto(station["url"], timeout=30000, wait_until="networkidle")
     page.wait_for_timeout(3000)
 
-    h1 = page.query_selector("h1")
-    raw_name = h1.inner_text().strip() if h1 else station["url"]
-    name = re.sub(r"\s*AIR QUALITY\s*$", "", raw_name, flags=re.I).title().strip()
+    if "name" in station:
+        # GPAZ's H1 is just "GPAZ" (no per-station name like WYAMZ/SESAA's
+        # own H1s carry) - use the configured name directly instead.
+        name = station["name"]
+    else:
+        h1 = page.query_selector("h1")
+        raw_name = h1.inner_text().strip() if h1 else station["url"]
+        name = re.sub(r"\s*AIR QUALITY\s*$", "", raw_name, flags=re.I).title().strip()
 
     table = page.query_selector("table")
     if not table:
         print(f"[WARN] no table found for {station['url']}")
         return name, []
+
+    param_columns = station.get("param_columns", PARAM_COLUMNS)
 
     rows = table.query_selector_all("tr")
     records = []
@@ -109,7 +135,7 @@ def parse_station(page, station):
         local_dt = datetime.strptime(cells[0], "%Y-%m-%d %H:%M")
         utc_dt = (local_dt - SK_UTC_OFFSET).replace(tzinfo=timezone.utc)
         row_values = {}
-        for col_name, raw_val in zip(PARAM_COLUMNS, cells[1:]):
+        for col_name, raw_val in zip(param_columns, cells[1:]):
             if raw_val in ("", "NA"):
                 continue
             try:
