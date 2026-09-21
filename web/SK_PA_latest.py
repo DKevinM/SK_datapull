@@ -516,9 +516,18 @@ def main():
         
     
     # Save as JSON for Leaflet or web app
-    # ab_tz = pytz.timezone("America/Edmonton")
+    # Real bug, found + fixed 2026-09-21 (same bug independently found and
+    # fixed in AB_datapull's AB_PA_latest.py this same day - this file was
+    # copied from that one, inheriting it): assigning the formatted string
+    # straight back into result["last_seen"] (still dtype datetime64[UTC]
+    # at that point) made pandas silently re-parse it as a Timestamp - and
+    # since the column's dtype says UTC, it re-interpreted the already-
+    # Regina-local string AS IF it were UTC, subtracting Regina's UTC-6
+    # offset a second time. Net effect: every sensor's last_seen was stuck
+    # ~6h behind real time. Assigning a plain list (not a Series) forces a
+    # real string dtype with no dtype-preserving re-coercion.
     sk_tz = pytz.timezone("America/Regina")
-    result.loc[:, "last_seen"] = result["last_seen"].dt.tz_convert(sk_tz).dt.strftime('%Y-%m-%d %I:%M:%S %p')
+    result["last_seen"] = result["last_seen"].dt.tz_convert(sk_tz).dt.strftime('%Y-%m-%d %I:%M:%S %p').tolist()
 
     print("Pushing data to Supabase...")
     push_to_supabase(result)
