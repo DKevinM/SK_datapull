@@ -6,37 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-09-26T07:00:00+00:00",
-        "NO": -0.1,
-        "NO2": 0.0,
-        "NOX": -0.3,
-        "O3": 44.5,
-        "PM2.5": 8.0,
-        "TEMP": 21.4,
-        "WS": 2.7,
-        "WD": 171.1,
-        "RH": 40.4,
-        "AP": 942.1,
-        "AQI": 22.0,
-        "AQHI_calc": 2.7,
-        "aqhi_display": 3,
-        "aqhi_color": "#016797",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.1667,
           51.4667
         ]
@@ -45,17 +14,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-09-26T07:00:00+00:00",
-        "NO": 0.4,
-        "NO2": 0.9,
-        "NOX": 13.0,
-        "O3": 16.4,
-        "PM2.5": 5.5,
-        "TEMP": 258.1,
-        "WS": 45.8,
-        "WD": 922.3,
-        "RH": 11.0,
-        "AQHI_calc": 1.18,
+        "reading_date": "2026-09-26T08:00:00+00:00",
+        "NO": 0.3,
+        "NO2": 1.0,
+        "NOX": 11.0,
+        "O3": 14.8,
+        "PM2.5": 2.1,
+        "TEMP": 243.1,
+        "WS": 52.0,
+        "WD": 922.0,
+        "RH": 9.0,
+        "AQHI_calc": 0.95,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
@@ -115,37 +84,6 @@
         "AP": 94.0,
         "AQI": 943.1,
         "AQHI_calc": 0.01,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.1667,
-          49.2333
-        ]
-      },
-      "properties": {
-        "station_name": "Oxbow",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-09-26T04:00:00+00:00",
-        "NO": -0.5,
-        "NO2": 8.1,
-        "NOX": 7.5,
-        "O3": 0.6,
-        "PM2.5": 1.1,
-        "TEMP": 7.4,
-        "WS": 16.2,
-        "WD": 5.3,
-        "RH": 104.7,
-        "AP": 92.5,
-        "AQI": 946.0,
-        "AQHI_calc": 0.76,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
