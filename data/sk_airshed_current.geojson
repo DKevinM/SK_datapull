@@ -6,37 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-09-26T09:00:00+00:00",
-        "NO": 0.1,
-        "NO2": 0.4,
-        "NOX": 0.5,
-        "O3": 37.2,
-        "PM2.5": 9.0,
-        "TEMP": 19.0,
-        "WS": 1.9,
-        "WD": 209.6,
-        "RH": 45.9,
-        "AP": 942.9,
-        "AQI": 19.0,
-        "AQHI_calc": 2.4,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.1667,
           51.4667
         ]
@@ -45,15 +14,15 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-09-26T09:00:00+00:00",
-        "NO": 0.4,
-        "NO2": 0.8,
-        "NOX": 9.0,
-        "O3": 12.2,
-        "PM2.5": 2.4,
-        "TEMP": 227.2,
-        "WS": 69.2,
-        "WD": 921.7,
+        "reading_date": "2026-09-26T10:00:00+00:00",
+        "NO": 0.3,
+        "NO2": 0.9,
+        "NOX": 8.0,
+        "O3": 11.2,
+        "PM2.5": 3.3,
+        "TEMP": 253.2,
+        "WS": 69.7,
+        "WD": 921.3,
         "RH": 7.0,
         "AQHI_calc": 0.81,
         "aqhi_display": 1,
