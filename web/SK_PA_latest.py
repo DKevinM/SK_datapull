@@ -89,11 +89,13 @@ def assess_pm_quality(pm_raw, pm_corr, a, b, method, humidity=None):
         else:
             rel_diff = 0
 
-        if diff_ab > 50 and rel_diff > 0.61:
-            flags.append("channel_disagreement")
-            pm_corr_clean = None
+        # Channel mismatch (changed 2026-10-01, same as AB_datapull/AB_PA_latest.py):
+        # select_pm already fell back to the LOWER channel, which matched
+        # co-located station PM2.5 about as well as healthy hours, so keep it on
+        # the map but out of the model.
+        if (diff_ab > 10 and rel_diff > 0.61) or diff_ab > 50:
+            flags.append("channel_disagreement_lower_used")
             use_for_model = False
-            use_for_map = False
 
     if pd.notna(humidity) and humidity > 90:
         flags.append("high_rh")
@@ -350,7 +352,8 @@ def main():
     url = "https://api.purpleair.com/v1/sensors"
     headers = {"X-API-Key": api_key}
     params = {
-        "fields": "sensor_index,last_seen,humidity,pm2.5_atm,pm2.5_atm_a,pm2.5_atm_b",
+        "fields": "sensor_index,last_seen,humidity,pm2.5_atm,pm2.5_atm_a,pm2.5_atm_b,"
+                  "pm2.5_10minute_a,pm2.5_10minute_b,pm2.5_60minute_a,pm2.5_60minute_b",
         "show_only": sensor_id_str
     }
     
@@ -445,8 +448,12 @@ def main():
             if diff > 500:
                 return None, "extreme_diff"
     
-            # Moderate divergence → choose LOWER (safer than max)
-            if diff > 50:
+            # Divergence → choose LOWER (changed 2026-10-01 from diff > 50 only;
+            # evidence in AB_datapull/AB_PA_latest.py and
+            # drafts/regional_gas_eaqhi/test5_results.txt)
+            mean_ab = (a + b) / 2
+            rel = diff / mean_ab if mean_ab > 0 else 0
+            if (diff > 10 and rel > 0.61) or diff > 50:
                 return min(a, b), "min_ab"
     
             # Small diff → use average
@@ -461,52 +468,77 @@ def main():
         return avg, "fallback"
     
     
-    # Apply selection
-    df[["pm_raw", "pm_method"]] = df.apply(
-        lambda x: pd.Series(select_pm(x)),
-        axis=1
-    )
+    # -------- Averaging window (changed 2026-10-01, same as AB_PA_latest.py) --------
+    # Map = per-channel 10-minute average, Supabase hourly = per-channel
+    # 60-minute average, instead of the ~2-minute instant reading. Both are
+    # ATM-basis like pm2.5_atm_*, so the selection/RH/QA chain is unchanged.
+    # Fault guard: if either instant channel is at PurpleAir's ~3333 fault
+    # level, keep the instant values so the checks reject it as before.
+    FAULT_LEVEL = 1000
 
-    # Apply RH correction ONCE
-    df["pm_corr"] = df.apply(
-        lambda x: correct_pm25(x["pm_raw"], x["humidity"]),
-        axis=1
-    )
+    def with_window(frame, minutes):
+        f = frame.copy()
+        inst_a = pd.to_numeric(f["pm2.5_atm_a"], errors="coerce")
+        inst_b = pd.to_numeric(f["pm2.5_atm_b"], errors="coerce")
+        faulty = (inst_a >= FAULT_LEVEL) | (inst_b >= FAULT_LEVEL)
+        for ch, inst in (("a", inst_a), ("b", inst_b)):
+            avg_col = pd.to_numeric(f[f"pm2.5_{minutes}minute_{ch}"], errors="coerce")
+            f[f"pm2.5_atm_{ch}"] = avg_col.fillna(inst).where(~faulty, inst)
+        f["pm2.5_atm"] = f[["pm2.5_atm_a", "pm2.5_atm_b"]].mean(axis=1).where(~faulty, f["pm2.5_atm"])
+        return f
 
-    # -------- QA / Ceiling Logic For Map + Model --------
-    quality = df.apply(
-        lambda x: assess_pm_quality(
-            pm_raw=x["pm_raw"],
-            pm_corr=x["pm_corr"],
-            a=x["pm2.5_atm_a"],
-            b=x["pm2.5_atm_b"],
-            method=x["pm_method"],
-            humidity=x["humidity"]
-        ),
-        axis=1
-    )
+    def process(df):
+        # Apply selection
+        df[["pm_raw", "pm_method"]] = df.apply(
+            lambda x: pd.Series(select_pm(x)),
+            axis=1
+        )
 
-    quality_df = pd.DataFrame(list(quality))
+        # Apply RH correction ONCE
+        df["pm_corr"] = df.apply(
+            lambda x: correct_pm25(x["pm_raw"], x["humidity"]),
+            axis=1
+        )
 
-    # Drop any old QA columns before joining new QA results
-    qa_cols = ["quality_flag", "pm_corr_clean", "use_for_model", "use_for_map"]
-    df = df.drop(columns=[c for c in qa_cols if c in df.columns], errors="ignore")
+        # -------- QA / Ceiling Logic For Map + Model --------
+        quality = df.apply(
+            lambda x: assess_pm_quality(
+                pm_raw=x["pm_raw"],
+                pm_corr=x["pm_corr"],
+                a=x["pm2.5_atm_a"],
+                b=x["pm2.5_atm_b"],
+                method=x["pm_method"],
+                humidity=x["humidity"]
+            ),
+            axis=1
+        )
 
-    df = pd.concat([df.reset_index(drop=True), quality_df.reset_index(drop=True)], axis=1)
+        quality_df = pd.DataFrame(list(quality))
 
-    # Keep original corrected value for Supabase/audit
-    df["pm_corr_original"] = df["pm_corr"]
+        # Drop any old QA columns before joining new QA results
+        qa_cols = ["quality_flag", "pm_corr_clean", "use_for_model", "use_for_map"]
+        df = df.drop(columns=[c for c in qa_cols if c in df.columns], errors="ignore")
 
-    # Force booleans to actual bool values
-    df["use_for_map"] = df["use_for_map"].fillna(False).astype(bool)
-    df["use_for_model"] = df["use_for_model"].fillna(False).astype(bool)
+        df = pd.concat([df.reset_index(drop=True), quality_df.reset_index(drop=True)], axis=1)
 
-    # Map-facing corrected PM2.5.
-    # If use_for_map is False, this becomes None and will not light up the map.
-    df["pm_corr"] = df["pm_corr_clean"].where(df["use_for_map"], None)
+        # Keep original corrected value for Supabase/audit
+        df["pm_corr_original"] = df["pm_corr"]
 
-    print("PurpleAir QA summary:")
-    print(df["quality_flag"].value_counts(dropna=False))
+        # Force booleans to actual bool values
+        df["use_for_map"] = df["use_for_map"].fillna(False).astype(bool)
+        df["use_for_model"] = df["use_for_model"].fillna(False).astype(bool)
+
+        # Map-facing corrected PM2.5.
+        # If use_for_map is False, this becomes None and will not light up the map.
+        df["pm_corr"] = df["pm_corr_clean"].where(df["use_for_map"], None)
+
+        print("PurpleAir QA summary:")
+        print(df["quality_flag"].value_counts(dropna=False))
+        return df
+
+    df_hourly = process(with_window(df, 60))   # -> Supabase sensor_readings
+    df = process(with_window(df, 10))          # -> map GeoJSON
+
     # Clean result
     result = df.copy()
 
@@ -529,8 +561,8 @@ def main():
     sk_tz = pytz.timezone("America/Regina")
     result["last_seen"] = result["last_seen"].dt.tz_convert(sk_tz).dt.strftime('%Y-%m-%d %I:%M:%S %p').tolist()
 
-    print("Pushing data to Supabase...")
-    push_to_supabase(result)
+    print("Pushing data to Supabase (60-minute averages)...")
+    push_to_supabase(df_hourly)
 
     # Ensure data directory exists
     os.makedirs("data", exist_ok=True)
