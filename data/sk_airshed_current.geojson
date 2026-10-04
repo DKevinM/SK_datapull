@@ -37,6 +37,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -106.4,
+          52.2667
+        ]
+      },
+      "properties": {
+        "station_name": "Clavet",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-10-04T12:00:00+00:00",
+        "NO": 0.9,
+        "NO2": 4.7,
+        "NOX": 5.6,
+        "PM2.5": 2.0,
+        "TEMP": 2.5,
+        "WS": 0.5,
+        "WD": 186.2,
+        "RH": 79.0,
+        "AP": 962.3,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -109.1667,
           51.4667
         ]
