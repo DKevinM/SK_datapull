@@ -562,7 +562,18 @@ def main():
     result["last_seen"] = result["last_seen"].dt.tz_convert(sk_tz).dt.strftime('%Y-%m-%d %I:%M:%S %p').tolist()
 
     print("Pushing data to Supabase (60-minute averages)...")
-    push_to_supabase(df_hourly)
+    # Clock-hour rows only (changed 2026-10-04, Kevin): the SK pull (:03/:33) runs twice an
+    # hour and both runs used to upsert the same floor-of-hour row, so the later
+    # run won and every Supabase "hour" was a 60-min average ending ~:30 past
+    # (and an instant snapshot before 2026-09-30). Only the first-half-hour run
+    # writes now, so recorded_at H holds the 60-min average ending ~H:00 -
+    # hour-ENDING, same convention as aqhi_data. History before this change was
+    # re-pulled from PurpleAir's history API as true clock-hour averages
+    # (/opt/airquality/scripts/backfill_sensor_readings_hourly.py).
+    if datetime.now(timezone.utc).minute < 30:
+        push_to_supabase(df_hourly)
+    else:
+        print("Second-half-hour run: Supabase hourly row was written by this hour's first run - not overwriting.")
 
     # Ensure data directory exists
     os.makedirs("data", exist_ok=True)
