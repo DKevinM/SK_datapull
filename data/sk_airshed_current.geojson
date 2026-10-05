@@ -6,6 +6,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -108.4307,
+          54.1252
+        ]
+      },
+      "properties": {
+        "station_name": "Meadow Lake",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-10-05T11:00:00+00:00",
+        "NO": 0.2,
+        "NO2": 0.2,
+        "NOX": 0.3,
+        "O3": 26.2,
+        "PM2.5": 3.0,
+        "TEMP": 6.0,
+        "WS": 0.3,
+        "WD": 20.7,
+        "RH": 77.4,
+        "AP": 951.6,
+        "AQI": 13.0,
+        "AQHI_calc": 1.52,
+        "aqhi_display": 2,
+        "aqhi_color": "#0099cb",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -109.1667,
           51.4667
         ]
@@ -14,17 +45,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-10-05T10:00:00+00:00",
+        "reading_date": "2026-10-05T11:00:00+00:00",
         "NO": 0.2,
         "NO2": 0.7,
-        "NOX": 6.0,
-        "O3": 6.3,
-        "PM2.5": 1.8,
-        "TEMP": 78.1,
-        "WS": 69.6,
-        "WD": 927.8,
-        "RH": 5.0,
-        "AQHI_calc": 0.47,
+        "NOX": 5.0,
+        "O3": 5.8,
+        "PM2.5": 1.1,
+        "TEMP": 82.0,
+        "WS": 71.6,
+        "WD": 927.2,
+        "RH": 4.0,
+        "AQHI_calc": 0.41,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
@@ -116,6 +147,26 @@
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9667,
+          49.6667
+        ]
+      },
+      "properties": {
+        "station_name": "Wauchope",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-10-05T12:00:00+00:00",
+        "NOX": 47.8,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
       }
     },
     {
