@@ -6,65 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-10-07T06:00:00+00:00",
-        "NO": 0.0,
-        "NO2": 0.4,
-        "NOX": 0.4,
-        "O3": 32.7,
-        "PM2.5": 3.0,
-        "TEMP": 7.3,
-        "WS": 1.0,
-        "WD": 228.7,
-        "RH": 67.4,
-        "AP": 957.2,
-        "AQI": 16.0,
-        "AQHI_calc": 1.88,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.4,
-          52.2667
-        ]
-      },
-      "properties": {
-        "station_name": "Clavet",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-10-07T06:00:00+00:00",
-        "NO": 1.3,
-        "NO2": 6.1,
-        "NOX": 7.4,
-        "PM2.5": 6.0,
-        "TEMP": 8.8,
-        "WS": 1.4,
-        "WD": 241.7,
-        "RH": 71.0,
-        "AP": 953.1,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.1667,
           51.4667
         ]
@@ -73,17 +14,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-10-07T06:00:00+00:00",
-        "NO": 0.3,
-        "NO2": 0.8,
-        "NOX": 2.0,
+        "reading_date": "2026-10-07T07:00:00+00:00",
+        "NO": 0.2,
+        "NO2": 0.6,
+        "NOX": 3.0,
         "O3": 7.1,
         "PM2.5": 2.2,
-        "TEMP": 341.1,
-        "WS": 65.3,
-        "WD": 935.3,
-        "RH": 4.0,
-        "AQHI_calc": 0.54,
+        "TEMP": 348.7,
+        "WS": 66.9,
+        "WD": 935.6,
+        "RH": 3.0,
+        "AQHI_calc": 0.52,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
@@ -102,40 +43,16 @@
         "station_name": "Esterhazy",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-10-07T03:00:00+00:00",
-        "NO": 0.6,
-        "NO2": 4.3,
-        "NOX": 4.8,
-        "PM2.5": 9.3,
-        "TEMP": 12.2,
-        "WS": 1.3,
+        "reading_date": "2026-10-07T06:00:00+00:00",
+        "NO": 0.4,
+        "NO2": 3.5,
+        "NOX": 3.9,
+        "PM2.5": 4.3,
+        "TEMP": 11.2,
+        "WS": 2.2,
         "WD": 231.2,
-        "RH": 50.6,
-        "AP": 951.6,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.7194,
-          49.1936
-        ]
-      },
-      "properties": {
-        "station_name": "Glen Ewen",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-10-07T03:00:00+00:00",
-        "WS": 13.5,
-        "WD": 3.0,
-        "RH": 312.6,
-        "AP": 55.5,
-        "AQI": 947.0,
+        "RH": 53.6,
+        "AP": 952.1,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
@@ -154,67 +71,19 @@
         "station_name": "Oxbow",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-10-07T03:00:00+00:00",
-        "TEMP": 13.6,
-        "WS": 12.7,
-        "WD": 3.4,
-        "RH": 271.8,
-        "AP": 55.7,
-        "AQI": 947.2,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.05,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Stoughton",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-10-07T03:00:00+00:00",
-        "TEMP": 10.6,
-        "WS": 12.3,
-        "WD": 3.1,
-        "RH": 34.8,
-        "AP": 47.4,
-        "AQI": 942.3,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.5333,
-          49.1333
-        ]
-      },
-      "properties": {
-        "station_name": "Torquay",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-10-07T03:00:00+00:00",
-        "NO": 0.1,
-        "NO2": -0.9,
-        "NOX": 8.9,
-        "O3": 10.8,
-        "PM2.5": 1.8,
-        "TEMP": 299.6,
-        "WS": 56.1,
-        "WD": 946.5,
-        "RH": 7.0,
-        "AQHI_calc": 0.57,
+        "reading_date": "2026-10-07T06:00:00+00:00",
+        "NO": -0.5,
+        "NO2": 6.4,
+        "NOX": 6.0,
+        "O3": 1.1,
+        "PM2.5": 1.0,
+        "TEMP": 8.6,
+        "WS": 11.5,
+        "WD": 2.6,
+        "RH": 257.3,
+        "AP": 60.7,
+        "AQI": 948.0,
+        "AQHI_calc": 0.64,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
@@ -233,32 +102,8 @@
         "station_name": "Wauchope",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-10-07T03:00:00+00:00",
-        "NOX": 13.2,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.85,
-          49.6608
-        ]
-      },
-      "properties": {
-        "station_name": "Weyburn",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-10-07T03:00:00+00:00",
-        "O3": 40.9,
-        "TEMP": 3.1,
-        "WS": 2.6,
-        "WD": 289.3,
-        "RH": 52.4,
+        "reading_date": "2026-10-07T06:00:00+00:00",
+        "NOX": 6.9,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
