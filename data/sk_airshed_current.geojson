@@ -14,50 +14,22 @@
         "station_name": "Meadow Lake",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-10-11T06:00:00+00:00",
-        "NO": 0.1,
+        "reading_date": "2026-10-11T07:00:00+00:00",
+        "NO": -0.2,
         "NO2": 0.4,
-        "NOX": 0.5,
-        "O3": 23.1,
+        "NOX": 0.2,
+        "O3": 23.8,
         "PM2.5": 1.0,
-        "TEMP": 2.1,
+        "TEMP": 1.9,
         "WS": 1.2,
-        "WD": 17.0,
-        "RH": 80.1,
-        "AP": 965.3,
+        "WD": 16.2,
+        "RH": 80.0,
+        "AP": 965.9,
         "AQI": 12.0,
-        "AQHI_calc": 1.28,
+        "AQHI_calc": 1.32,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.4,
-          52.2667
-        ]
-      },
-      "properties": {
-        "station_name": "Clavet",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-10-11T06:00:00+00:00",
-        "NO": 0.2,
-        "NO2": 1.6,
-        "NOX": 1.7,
-        "PM2.5": -4.0,
-        "TEMP": 1.9,
-        "WS": 2.7,
-        "WD": 27.6,
-        "RH": 83.5,
-        "AP": 955.2,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
       }
     },
     {
@@ -73,17 +45,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-10-11T06:00:00+00:00",
-        "NO": 0.2,
-        "NO2": 0.8,
-        "NOX": 7.0,
-        "O3": 1.4,
-        "PM2.5": 4.2,
-        "TEMP": 34.7,
-        "WS": 81.4,
-        "WD": 936.6,
-        "RH": 6.0,
-        "AQHI_calc": 0.34,
+        "reading_date": "2026-10-11T07:00:00+00:00",
+        "NO": 0.3,
+        "NO2": 0.6,
+        "NOX": 6.0,
+        "O3": 1.2,
+        "PM2.5": 4.0,
+        "TEMP": 37.8,
+        "WS": 82.5,
+        "WD": 937.3,
+        "RH": 5.0,
+        "AQHI_calc": 0.3,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
@@ -102,112 +74,19 @@
         "station_name": "Esterhazy",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-10-11T04:00:00+00:00",
+        "reading_date": "2026-10-11T07:00:00+00:00",
         "NO": 0.6,
-        "NO2": 3.4,
-        "NOX": 4.0,
-        "PM2.5": 1.6,
-        "TEMP": 6.7,
-        "WS": 2.0,
-        "WD": 308.7,
-        "RH": 84.7,
-        "AP": 949.6,
+        "NO2": 3.5,
+        "NOX": 4.1,
+        "PM2.5": 0.5,
+        "TEMP": 5.2,
+        "WS": 2.1,
+        "WD": 312.8,
+        "RH": 76.1,
+        "AP": 952.2,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.7194,
-          49.1936
-        ]
-      },
-      "properties": {
-        "station_name": "Glen Ewen",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-10-11T04:00:00+00:00",
-        "NO": -0.7,
-        "NO2": 0.4,
-        "NOX": -0.3,
-        "O3": 0.0,
-        "PM2.5": -0.2,
-        "TEMP": 15.7,
-        "WS": 9.3,
-        "WD": 2.9,
-        "RH": 347.0,
-        "AP": 86.8,
-        "AQI": 940.6,
-        "AQHI_calc": 0.02,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.1667,
-          49.2333
-        ]
-      },
-      "properties": {
-        "station_name": "Oxbow",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-10-11T04:00:00+00:00",
-        "NO": -0.4,
-        "NO2": 5.3,
-        "NOX": 4.9,
-        "O3": 2.5,
-        "PM2.5": 3.0,
-        "TEMP": 6.5,
-        "WS": 9.1,
-        "WD": 2.6,
-        "RH": 311.3,
-        "AP": 86.9,
-        "AQI": 941.8,
-        "AQHI_calc": 0.71,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.05,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Stoughton",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-10-11T04:00:00+00:00",
-        "NO": -0.1,
-        "NO2": 1.0,
-        "NOX": 0.8,
-        "O3": 0.2,
-        "PM2.5": -1.0,
-        "TEMP": 4.3,
-        "WS": 8.4,
-        "WD": 3.0,
-        "RH": 84.2,
-        "AP": 78.0,
-        "AQI": 937.8,
-        "AQHI_calc": 0.05,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
       }
     },
     {
@@ -223,67 +102,15 @@
         "station_name": "Torquay",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-10-11T04:00:00+00:00",
-        "NO": 0.5,
-        "NO2": -1.0,
-        "NOX": 3.4,
-        "O3": 9.3,
-        "PM2.5": 5.4,
-        "TEMP": 342.1,
-        "WS": 76.7,
-        "WD": 941.3,
-        "RH": 3.0,
-        "AQHI_calc": 0.65,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.9667,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Wauchope",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-10-11T04:00:00+00:00",
-        "NOX": -3.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.85,
-          49.6608
-        ]
-      },
-      "properties": {
-        "station_name": "Weyburn",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-10-11T04:00:00+00:00",
-        "NO": -0.4,
-        "NO2": -0.3,
-        "NOX": -0.7,
-        "O3": 0.8,
-        "PM2.5": 0.7,
-        "TEMP": 0.5,
-        "WS": 4.1,
-        "WD": 338.8,
-        "RH": 74.8,
-        "AP": 4.0,
-        "AQHI_calc": 0.05,
+        "reading_date": "2026-10-11T07:00:00+00:00",
+        "NO2": -0.8,
+        "NOX": 2.8,
+        "O3": 6.7,
+        "PM2.5": 4.6,
+        "TEMP": 334.4,
+        "WS": 86.5,
+        "WD": 943.6,
+        "AQHI_calc": 0.5,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
