@@ -6,37 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-10-11T23:00:00+00:00",
-        "NO": -0.1,
-        "NO2": 0.6,
-        "NOX": 0.5,
-        "O3": 24.2,
-        "PM2.5": 3.0,
-        "TEMP": 4.8,
-        "WS": 0.4,
-        "WD": 84.3,
-        "RH": 62.8,
-        "AP": 967.4,
-        "AQI": 12.0,
-        "AQHI_calc": 1.45,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -106.4,
           52.2667
         ]
@@ -45,16 +14,16 @@
         "station_name": "Clavet",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-10-11T23:00:00+00:00",
-        "NO": -0.3,
+        "reading_date": "2026-10-12T00:00:00+00:00",
+        "NO": -0.1,
         "NO2": 0.2,
-        "NOX": -0.1,
-        "PM2.5": 2.9,
-        "TEMP": 3.0,
-        "WS": 2.9,
-        "WD": 47.0,
-        "RH": 75.2,
-        "AP": 959.7,
+        "NOX": 0.1,
+        "PM2.5": 1.0,
+        "TEMP": 2.5,
+        "WS": 2.5,
+        "WD": 53.2,
+        "RH": 77.6,
+        "AP": 959.6,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
@@ -73,17 +42,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-10-11T23:00:00+00:00",
+        "reading_date": "2026-10-12T00:00:00+00:00",
         "NO": 0.2,
-        "NO2": 0.6,
+        "NO2": 0.5,
         "NOX": 12.0,
-        "O3": 1.5,
+        "O3": 1.2,
         "PM2.5": 4.3,
-        "TEMP": 58.7,
-        "WS": 76.6,
-        "WD": 939.8,
+        "TEMP": 61.1,
+        "WS": 79.3,
+        "WD": 939.5,
         "RH": 10.0,
-        "AQHI_calc": 0.33,
+        "AQHI_calc": 0.31,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
