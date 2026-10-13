@@ -6,6 +6,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -106.4,
+          52.2667
+        ]
+      },
+      "properties": {
+        "station_name": "Clavet",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-10-13T10:00:00+00:00",
+        "NO": -0.3,
+        "NO2": 0.8,
+        "NOX": 0.5,
+        "PM2.5": 4.0,
+        "TEMP": 2.9,
+        "WS": 1.7,
+        "WD": 231.1,
+        "RH": 82.1,
+        "AP": 951.3,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -109.1667,
           51.4667
         ]
@@ -14,17 +42,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-10-13T09:00:00+00:00",
-        "NO": 0.3,
-        "NO2": 0.7,
+        "reading_date": "2026-10-13T10:00:00+00:00",
+        "NO": 0.2,
+        "NO2": 0.8,
         "NOX": 2.0,
-        "O3": -1.8,
-        "PM2.5": 1.7,
-        "TEMP": 317.6,
-        "WS": 81.0,
-        "WD": 930.9,
+        "O3": -2.7,
+        "PM2.5": 1.5,
+        "TEMP": 329.5,
+        "WS": 82.0,
+        "WD": 930.6,
         "RH": 4.0,
-        "AQHI_calc": 0.05,
+        "AQHI_calc": -0.0,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
@@ -43,19 +71,112 @@
         "station_name": "Esterhazy",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-10-13T07:00:00+00:00",
-        "NO": 0.6,
-        "NO2": 3.9,
-        "NOX": 4.5,
-        "PM2.5": 5.3,
-        "TEMP": 3.6,
-        "WS": 0.6,
-        "WD": 221.0,
-        "RH": 85.6,
-        "AP": 953.6,
+        "reading_date": "2026-10-13T10:00:00+00:00",
+        "NO": 0.8,
+        "NO2": 4.1,
+        "NOX": 4.9,
+        "PM2.5": 2.5,
+        "TEMP": 3.3,
+        "WS": 0.5,
+        "WD": 224.3,
+        "RH": 86.2,
+        "AP": 952.7,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7194,
+          49.1936
+        ]
+      },
+      "properties": {
+        "station_name": "Glen Ewen",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-10-13T10:00:00+00:00",
+        "NO": -0.6,
+        "NO2": 0.4,
+        "NOX": -0.3,
+        "O3": 0.3,
+        "PM2.5": -0.1,
+        "TEMP": 7.7,
+        "WS": 2.7,
+        "WD": 1.7,
+        "RH": 289.3,
+        "AP": 94.8,
+        "AQI": 946.0,
+        "AQHI_calc": 0.04,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.1667,
+          49.2333
+        ]
+      },
+      "properties": {
+        "station_name": "Oxbow",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-10-13T10:00:00+00:00",
+        "NO": -0.3,
+        "NO2": 4.2,
+        "NOX": 3.9,
+        "O3": 0.3,
+        "PM2.5": 1.0,
+        "TEMP": 26.3,
+        "WS": 2.8,
+        "WD": 1.9,
+        "RH": 247.3,
+        "AP": 99.2,
+        "AQI": 947.4,
+        "AQHI_calc": 0.41,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.05,
+          49.6667
+        ]
+      },
+      "properties": {
+        "station_name": "Stoughton",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-10-13T10:00:00+00:00",
+        "NO": -0.2,
+        "NO2": 0.3,
+        "NOX": 0.1,
+        "O3": 0.4,
+        "PM2.5": -0.8,
+        "TEMP": 2.7,
+        "WS": 2.2,
+        "WD": 1.9,
+        "RH": 51.7,
+        "AP": 88.5,
+        "AQI": 941.5,
+        "AQHI_calc": 0.01,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
       }
     },
     {
@@ -71,18 +192,40 @@
         "station_name": "Torquay",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-10-13T07:00:00+00:00",
-        "NO2": -1.1,
-        "NOX": 2.0,
-        "O3": 3.0,
-        "PM2.5": 1.7,
-        "TEMP": 318.6,
-        "WS": 90.9,
-        "WD": 945.8,
-        "AQHI_calc": 0.14,
+        "reading_date": "2026-10-13T10:00:00+00:00",
+        "NO": 0.3,
+        "NO2": -1.2,
+        "NOX": 2.7,
+        "O3": 2.3,
+        "PM2.5": 2.1,
+        "TEMP": 300.3,
+        "WS": 90.1,
+        "WD": 945.9,
+        "RH": 2.0,
+        "AQHI_calc": 0.12,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9667,
+          49.6667
+        ]
+      },
+      "properties": {
+        "station_name": "Wauchope",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-10-13T10:00:00+00:00",
+        "NOX": 1.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
       }
     },
     {
@@ -98,21 +241,21 @@
         "station_name": "East Regina",
         "network": "GPAZ",
         "province": "SK",
-        "reading_date": "2026-10-13T10:00:00+00:00",
+        "reading_date": "2026-10-13T11:00:00+00:00",
         "NO": 0.0,
         "NO2": 3.8,
-        "NOX": 3.7,
+        "NOX": 3.6,
         "SO2": 0.0,
         "H2S": 0.0,
-        "O3": 9.4,
-        "PM2.5": 4.3,
-        "TEMP": 1.9,
-        "WS": 3.6,
-        "WD": 249.0,
-        "RH": 94.8,
+        "O3": 8.8,
+        "PM2.5": 4.6,
+        "TEMP": 1.69,
+        "WS": 3.96,
+        "WD": 247.0,
+        "RH": 94.9,
         "AP": 0.0,
         "PRE": 0.0,
-        "AQHI_calc": 1.01,
+        "AQHI_calc": 0.99,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
