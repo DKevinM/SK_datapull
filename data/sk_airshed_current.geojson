@@ -6,37 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-10-16T05:00:00+00:00",
-        "NO": -0.2,
-        "NO2": 0.8,
-        "NOX": 0.6,
-        "O3": 26.0,
-        "PM2.5": 3.0,
-        "TEMP": 3.5,
-        "WS": 1.1,
-        "WD": 166.4,
-        "RH": 54.9,
-        "AP": 975.1,
-        "AQI": 13.0,
-        "AQHI_calc": 1.56,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -106.4,
           52.2667
         ]
@@ -302,23 +271,23 @@
         "station_name": "East Regina",
         "network": "GPAZ",
         "province": "SK",
-        "reading_date": "2026-10-16T06:00:00+00:00",
-        "NO": 0.1,
-        "NO2": 5.9,
-        "NOX": 6.0,
-        "SO2": 0.2,
+        "reading_date": "2026-10-16T07:00:00+00:00",
+        "NO": 3.3,
+        "NO2": 9.3,
+        "NOX": 12.5,
+        "SO2": 0.1,
         "H2S": 0.0,
-        "O3": 6.1,
-        "PM2.5": 11.7,
-        "TEMP": -1.25,
+        "O3": 2.2,
+        "PM2.5": 18.2,
+        "TEMP": -2.02,
         "WS": 2.88,
-        "WD": 97.6,
-        "RH": 89.4,
+        "WD": 140.0,
+        "RH": 91.7,
         "AP": 0.0,
         "PRE": 0.0,
-        "AQHI_calc": 1.36,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
+        "AQHI_calc": 1.75,
+        "aqhi_display": 2,
+        "aqhi_color": "#0099cb",
         "aqhi_category": "Low"
       }
     }
