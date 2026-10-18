@@ -6,65 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-10-18T06:00:00+00:00",
-        "NO": -0.2,
-        "NO2": 0.7,
-        "NOX": 0.5,
-        "O3": 35.9,
-        "PM2.5": 4.0,
-        "TEMP": 9.2,
-        "WS": 2.3,
-        "WD": 264.7,
-        "RH": 52.6,
-        "AP": 946.1,
-        "AQI": 18.0,
-        "AQHI_calc": 2.12,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.4,
-          52.2667
-        ]
-      },
-      "properties": {
-        "station_name": "Clavet",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-10-18T06:00:00+00:00",
-        "NO": 0.1,
-        "NO2": 1.8,
-        "NOX": 1.9,
-        "PM2.5": 1.0,
-        "TEMP": 9.0,
-        "WS": 4.3,
-        "WD": 249.5,
-        "RH": 47.4,
-        "AP": 945.2,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.1667,
           51.4667
         ]
@@ -73,17 +14,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-10-18T06:00:00+00:00",
+        "reading_date": "2026-10-18T07:00:00+00:00",
         "NO": 0.2,
-        "NO2": 3.6,
-        "NOX": 9.0,
-        "O3": 3.6,
-        "PM2.5": 2.8,
-        "TEMP": 276.2,
-        "WS": 57.3,
-        "WD": 928.6,
-        "RH": 18.0,
-        "AQHI_calc": 0.62,
+        "NO2": 3.7,
+        "NOX": 10.0,
+        "O3": 5.8,
+        "PM2.5": 5.6,
+        "TEMP": 282.0,
+        "WS": 49.0,
+        "WD": 929.6,
+        "RH": 19.0,
+        "AQHI_calc": 0.87,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
@@ -302,21 +243,21 @@
         "station_name": "East Regina",
         "network": "GPAZ",
         "province": "SK",
-        "reading_date": "2026-10-18T07:00:00+00:00",
+        "reading_date": "2026-10-18T08:00:00+00:00",
         "NO": 0.0,
-        "NO2": 0.3,
-        "NOX": 0.1,
+        "NO2": 0.2,
+        "NOX": 0.0,
         "SO2": 0.0,
         "H2S": 0.0,
-        "O3": 33.7,
-        "PM2.5": 5.1,
-        "TEMP": 10.2,
-        "WS": 18.36,
-        "WD": 286.0,
-        "RH": 47.1,
+        "O3": 32.4,
+        "PM2.5": 4.3,
+        "TEMP": 9.4,
+        "WS": 18.0,
+        "WD": 292.0,
+        "RH": 47.9,
         "AP": 0.0,
         "PRE": 0.0,
-        "AQHI_calc": 2.02,
+        "AQHI_calc": 1.91,
         "aqhi_display": 2,
         "aqhi_color": "#0099cb",
         "aqhi_category": "Low"
