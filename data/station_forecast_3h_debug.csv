@@ -1,5 +1,5 @@
 station,lat,lon,AQHI,aqhi_forecast,forecast_method
-Buffalo Narrows,55.8412,-108.417,1.0,1.4210536474618995,rf_3h
+Buffalo Narrows,55.8412,-108.417,1.0,1.4210536474619,rf_3h
 Estevan,49.1405,-102.989,1.0,1.49605171046565,rf_3h
 Prince Albert,53.2033,-105.7531,2.0,1.9107044170921161,rf_3h
 Regina,50.4452,-104.6189,2.0,1.9169219163111464,rf_3h
