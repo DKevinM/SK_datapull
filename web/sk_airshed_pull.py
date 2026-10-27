@@ -64,7 +64,17 @@ STATIONS = [
      "param_columns": ["NO", "NO2", "NOX", "SO2", "H2S", "O3", "PM2.5", "TEMP", "WS", "WD", "RH", "AP", "PRE"]},
 ]
 
+# Fallback only - each page's own header row is what decides the column order
+# (see header_columns). Fixed 2026-10-27: this list used to be applied to every
+# page by position, but the stations don't share one layout - Kerrobert/Torquay/
+# Wauchope have no NO/NO2/NOX/O3, Glen Ewen has no PM2.5, Oxbow/Stoughton/Weyburn
+# add SO2/H2S - so every value after the first missing column landed under the
+# wrong name (TEMP 109 deg C, RH 233 %), and AQHI_calc was built from H2S/SO2/TEMP/WS.
 PARAM_COLUMNS = ["NO", "NO2", "NOX", "O3", "PM2.5", "TEMP", "WS", "WD", "RH", "AP", "AQI"]
+
+# GPAZ's own AQHI column - not ingested (see module docstring). WYAMZ/SESAA's
+# "AQI" is kept as before (SK_Air_Map shows it as "Site's own AQI").
+SKIP_COLUMNS = {"AQHI"}
 
 ROW_RE = re.compile(r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$")
 
@@ -106,6 +116,35 @@ def aqhi_category(v):
     return "Very High"
 
 
+def header_columns(header_row):
+    """Parameter name + unit for each data column, from the table's own header
+    row ("NO2 ppb", "PM2.5 \u00b5g/m3", "WS  km/h", ...), skipping "Time"."""
+    cols = []
+    for cell in header_row.query_selector_all("th,td")[1:]:
+        parts = cell.inner_text().split()
+        cols.append((parts[0].upper() if parts else "", parts[1] if len(parts) > 1 else ""))
+    return cols
+
+
+def aqhi_3h(hours):
+    """AQHI_calc per hour from 3-hour means of NO2/O3/PM2.5 (the hour plus the
+    two before it, at least 2 of 3 present per pollutant) - the Health Canada
+    definition, and the same rule AEPA's own published AQHI matches exactly.
+    hours: {utc_dt: {param: value}}. Returns {utc_dt: raw AQHI}."""
+    out = {}
+    for t in hours:
+        window = [hours.get(t - timedelta(hours=k), {}) for k in range(3)]
+        means = {}
+        for p in ("NO2", "O3", "PM2.5"):
+            vals = [w[p] for w in window if p in w]
+            if len(vals) < 2:
+                break
+            means[p] = sum(vals) / len(vals)
+        else:
+            out[t] = health_canada_aqhi(means["NO2"], means["O3"], means["PM2.5"])
+    return out
+
+
 def parse_station(page, station):
     page.goto(station["url"], timeout=30000, wait_until="networkidle")
     page.wait_for_timeout(3000)
@@ -124,24 +163,34 @@ def parse_station(page, station):
         print(f"[WARN] no table found for {station['url']}")
         return name, []
 
-    param_columns = station.get("param_columns", PARAM_COLUMNS)
-
     rows = table.query_selector_all("tr")
+    columns = header_columns(rows[0]) if rows else []
+    if not columns or not all(c for c, _ in columns):
+        fallback = station.get("param_columns", PARAM_COLUMNS)
+        print(f"[WARN] {name}: unreadable header {columns!r}, falling back to {fallback}")
+        columns = [(c, "") for c in fallback]
+
     records = []
+    hours = {}
     for row in rows[1:]:  # skip header
         cells = [c.inner_text().strip() for c in row.query_selector_all("td")]
         if not cells or not ROW_RE.match(cells[0]):
             continue  # skips "Maximum Values" / "1 hour Standard" trailer rows
+        if len(cells) - 1 != len(columns):
+            print(f"[WARN] {name} {cells[0]}: {len(cells) - 1} values for {len(columns)} header columns, row skipped")
+            continue
         local_dt = datetime.strptime(cells[0], "%Y-%m-%d %H:%M")
         utc_dt = (local_dt - SK_UTC_OFFSET).replace(tzinfo=timezone.utc)
-        row_values = {}
-        for col_name, raw_val in zip(param_columns, cells[1:]):
-            if raw_val in ("", "NA"):
+        row_values = hours.setdefault(utc_dt, {})
+        for (col_name, unit), raw_val in zip(columns, cells[1:]):
+            if col_name in SKIP_COLUMNS or raw_val in ("", "NA"):
                 continue
             try:
                 value = float(raw_val)
             except ValueError:
                 continue
+            if col_name == "WS" and unit.lower() == "km/h":
+                value = round(value / 3.6, 2)  # GPAZ publishes km/h, WYAMZ/SESAA m/s
             row_values[col_name] = value
             records.append({
                 "station_name": name,
@@ -151,16 +200,15 @@ def parse_station(page, station):
                 "reading_date": utc_dt.isoformat(),
                 "value": value,
             })
-        if all(k in row_values for k in ("NO2", "O3", "PM2.5")):
-            aqhi_val = health_canada_aqhi(row_values["NO2"], row_values["O3"], row_values["PM2.5"])
-            records.append({
-                "station_name": name,
-                "network": station["network"],
-                "province": station["province"],
-                "parameter_name": "AQHI_calc",
-                "reading_date": utc_dt.isoformat(),
-                "value": round(aqhi_val, 2),
-            })
+    for utc_dt, aqhi_val in aqhi_3h(hours).items():
+        records.append({
+            "station_name": name,
+            "network": station["network"],
+            "province": station["province"],
+            "parameter_name": "AQHI_calc",
+            "reading_date": utc_dt.isoformat(),
+            "value": round(aqhi_val, 2),
+        })
     return name, records
 
 
