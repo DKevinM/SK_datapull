@@ -6,37 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-03T06:00:00+00:00",
-        "NO": 0.4,
-        "NO2": 8.4,
-        "NOX": 8.8,
-        "O3": 6.4,
-        "PM2.5": 12.0,
-        "TEMP": -0.9,
-        "WS": 0.1,
-        "WD": 23.1,
-        "RH": 76.3,
-        "AP": 961.2,
-        "AQI": 10.0,
-        "AQHI_calc": 1.6,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -106.4,
           52.2667
         ]
@@ -45,16 +14,44 @@
         "station_name": "Clavet",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-03T06:00:00+00:00",
-        "NO": 3.5,
-        "NO2": 4.6,
-        "NOX": 8.1,
+        "reading_date": "2026-11-03T07:00:00+00:00",
+        "NO": 0.3,
+        "NO2": 2.7,
+        "NOX": 3.0,
         "PM2.5": 1.0,
-        "TEMP": -2.9,
-        "WS": 1.2,
-        "WD": 194.5,
-        "RH": 86.6,
-        "AP": 958.8,
+        "TEMP": -2.5,
+        "WS": 1.7,
+        "WD": 194.4,
+        "RH": 86.3,
+        "AP": 958.5,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.1667,
+          51.4667
+        ]
+      },
+      "properties": {
+        "station_name": "Kerrobert",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-03T07:00:00+00:00",
+        "SO2": 0.2,
+        "H2S": 0.6,
+        "PM2.5": 5.0,
+        "TEMP": -1.7,
+        "WS": 1.1,
+        "WD": 258.0,
+        "RH": 78.0,
+        "AP": 937.8,
+        "AQI": 4.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
