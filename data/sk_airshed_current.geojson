@@ -45,15 +45,15 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-13T10:00:00+00:00",
-        "SO2": 0.1,
+        "reading_date": "2026-11-13T11:00:00+00:00",
+        "SO2": 0.2,
         "H2S": 0.6,
         "PM2.5": 2.0,
-        "TEMP": 0.4,
-        "WS": 0.8,
-        "WD": 123.9,
-        "RH": 77.1,
-        "AP": 925.1,
+        "TEMP": 0.1,
+        "WS": 2.0,
+        "WD": 110.6,
+        "RH": 77.8,
+        "AP": 925.0,
         "AQI": 3.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
@@ -166,14 +166,65 @@
         "station_name": "Torquay",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-11-13T07:00:00+00:00",
-        "H2S": -0.7,
-        "PM2.5": 4.3,
-        "TEMP": 2.8,
-        "WS": 5.3,
-        "WD": 159.3,
-        "RH": 88.3,
-        "AP": 947.1,
+        "reading_date": "2026-11-13T10:00:00+00:00",
+        "SO2": 0.7,
+        "H2S": -0.8,
+        "PM2.5": 6.6,
+        "TEMP": 2.4,
+        "WS": 5.2,
+        "WD": 160.3,
+        "RH": 89.7,
+        "AP": 946.2,
+        "AQI": 5.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9667,
+          49.6667
+        ]
+      },
+      "properties": {
+        "station_name": "Wauchope",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-13T10:00:00+00:00",
+        "PM2.5": 9.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.85,
+          49.6608
+        ]
+      },
+      "properties": {
+        "station_name": "Weyburn",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-13T10:00:00+00:00",
+        "NO": -0.5,
+        "NO2": 0.9,
+        "NOX": 0.4,
+        "SO2": 1.8,
+        "H2S": 0.5,
+        "PM2.5": 7.4,
+        "WS": 2.8,
+        "WD": 153.8,
+        "AP": 85.5,
+        "AQI": 6.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
