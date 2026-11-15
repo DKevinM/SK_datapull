@@ -6,58 +6,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.4,
-          52.2667
+          -108.4307,
+          54.1252
         ]
       },
       "properties": {
-        "station_name": "Clavet",
+        "station_name": "Meadow Lake",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-15T05:00:00+00:00",
-        "NO": 0.1,
-        "NO2": 2.0,
-        "NOX": 2.1,
-        "O3": 5.3,
-        "PM2.5": 8.1,
-        "TEMP": 0.2,
-        "WS": 0.9,
-        "WD": 105.2,
-        "RH": 85.9,
-        "AP": 944.6,
-        "AQI": 7.0,
-        "AQHI_calc": 1.12,
+        "reading_date": "2026-11-15T06:00:00+00:00",
+        "NO": -0.1,
+        "NO2": 1.6,
+        "NOX": 1.5,
+        "O3": 10.4,
+        "PM2.5": 7.0,
+        "TEMP": 3.8,
+        "WS": 0.6,
+        "WD": 124.5,
+        "RH": 78.4,
+        "AP": 948.1,
+        "AQI": 6.0,
+        "AQHI_calc": 0.99,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.1667,
-          51.4667
-        ]
-      },
-      "properties": {
-        "station_name": "Kerrobert",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-15T05:00:00+00:00",
-        "SO2": 0.2,
-        "H2S": 0.7,
-        "PM2.5": 4.0,
-        "TEMP": 0.1,
-        "WS": 1.5,
-        "WD": 149.0,
-        "RH": 86.6,
-        "AP": 922.9,
-        "AQI": 4.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
       }
     },
     {
