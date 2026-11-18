@@ -6,30 +6,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.4,
-          52.2667
+          -109.1667,
+          51.4667
         ]
       },
       "properties": {
-        "station_name": "Clavet",
+        "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-18T06:00:00+00:00",
-        "NO": -0.5,
-        "NO2": 1.0,
-        "NOX": 0.5,
-        "O3": 26.5,
-        "PM2.5": 13.0,
-        "TEMP": 4.5,
-        "WS": 2.6,
-        "WD": 35.0,
-        "RH": 59.4,
-        "AP": 950.3,
-        "AQI": 13.0,
-        "AQHI_calc": 2.54,
-        "aqhi_display": 3,
-        "aqhi_color": "#016797",
-        "aqhi_category": "Low"
+        "reading_date": "2026-11-18T07:00:00+00:00",
+        "SO2": 0.4,
+        "H2S": 0.6,
+        "PM2.5": 5.0,
+        "TEMP": 3.3,
+        "WS": 3.6,
+        "WD": 30.3,
+        "RH": 64.1,
+        "AP": 931.5,
+        "AQI": 4.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
       }
     },
     {
