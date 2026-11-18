@@ -6,6 +6,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -106.4,
+          52.2667
+        ]
+      },
+      "properties": {
+        "station_name": "Clavet",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-18T09:00:00+00:00",
+        "NO": -0.6,
+        "NO2": 0.7,
+        "NOX": 0.1,
+        "O3": 27.4,
+        "PM2.5": 1.0,
+        "TEMP": 3.8,
+        "WS": 2.5,
+        "WD": 31.7,
+        "RH": 60.2,
+        "AP": 949.9,
+        "AQI": 14.0,
+        "AQHI_calc": 1.53,
+        "aqhi_display": 2,
+        "aqhi_color": "#0099cb",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -109.1667,
           51.4667
         ]
@@ -14,16 +45,16 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-18T08:00:00+00:00",
-        "SO2": 0.2,
+        "reading_date": "2026-11-18T09:00:00+00:00",
+        "SO2": 0.3,
         "H2S": 0.6,
-        "PM2.5": 5.0,
-        "TEMP": 2.0,
-        "WS": 3.5,
-        "WD": 16.2,
-        "RH": 65.0,
-        "AP": 931.0,
-        "AQI": 4.0,
+        "PM2.5": 6.0,
+        "TEMP": 1.9,
+        "WS": 4.2,
+        "WD": 21.8,
+        "RH": 61.9,
+        "AP": 930.5,
+        "AQI": 5.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
@@ -42,111 +73,22 @@
         "station_name": "Esterhazy",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-11-18T05:00:00+00:00",
-        "NO": 0.9,
-        "NO2": 4.9,
-        "NOX": 5.8,
-        "O3": 16.0,
-        "PM2.5": 6.1,
-        "TEMP": 2.2,
-        "WS": 1.2,
-        "WD": 21.4,
-        "RH": 74.9,
-        "AP": 949.8,
-        "AQI": 8.0,
-        "AQHI_calc": 1.66,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
+        "reading_date": "2026-11-18T08:00:00+00:00",
+        "NO": 0.6,
+        "NO2": 3.4,
+        "NOX": 4.0,
+        "O3": 13.5,
+        "PM2.5": 7.7,
+        "TEMP": 3.6,
+        "WS": 2.8,
+        "WD": 22.2,
+        "RH": 82.1,
+        "AP": 948.1,
+        "AQI": 7.0,
+        "AQHI_calc": 1.38,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.7194,
-          49.1936
-        ]
-      },
-      "properties": {
-        "station_name": "Glen Ewen",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-18T05:00:00+00:00",
-        "SO2": 0.4,
-        "H2S": 0.8,
-        "O3": 8.0,
-        "TEMP": 5.2,
-        "WS": 1.8,
-        "WD": 66.8,
-        "RH": 93.5,
-        "AP": 939.2,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.1667,
-          49.2333
-        ]
-      },
-      "properties": {
-        "station_name": "Oxbow",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-18T05:00:00+00:00",
-        "NO": -0.5,
-        "NO2": 20.0,
-        "NOX": 19.5,
-        "SO2": 0.8,
-        "H2S": 1.4,
-        "PM2.5": 13.6,
-        "TEMP": 5.3,
-        "WS": 4.0,
-        "WD": 43.9,
-        "RH": 96.9,
-        "AP": 940.3,
-        "AQI": 11.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.05,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Stoughton",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-18T05:00:00+00:00",
-        "NO": -0.1,
-        "NO2": 2.0,
-        "NOX": 1.9,
-        "SO2": 0.8,
-        "H2S": -0.1,
-        "PM2.5": 11.4,
-        "TEMP": 5.9,
-        "WS": 1.2,
-        "WD": 187.8,
-        "RH": 76.7,
-        "AP": 935.0,
-        "AQI": 9.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
       }
     },
     {
@@ -162,16 +104,16 @@
         "station_name": "Torquay",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-11-18T05:00:00+00:00",
-        "SO2": 0.4,
-        "H2S": -0.6,
-        "PM2.5": 14.5,
-        "TEMP": 6.6,
-        "WS": 4.5,
-        "WD": 81.0,
-        "RH": 83.9,
-        "AP": 937.5,
-        "AQI": 12.0,
+        "reading_date": "2026-11-18T08:00:00+00:00",
+        "SO2": 0.5,
+        "H2S": -0.4,
+        "PM2.5": 19.3,
+        "TEMP": 5.5,
+        "WS": 5.3,
+        "WD": 77.0,
+        "RH": 88.1,
+        "AP": 936.6,
+        "AQI": 16.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
