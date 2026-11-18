@@ -14,50 +14,22 @@
         "station_name": "Clavet",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-18T05:00:00+00:00",
-        "NO": -0.3,
-        "NO2": 1.9,
-        "NOX": 1.7,
-        "O3": 26.7,
-        "PM2.5": 14.3,
-        "TEMP": 4.3,
-        "WS": 2.3,
-        "WD": 33.0,
-        "RH": 58.8,
-        "AP": 950.6,
+        "reading_date": "2026-11-18T06:00:00+00:00",
+        "NO": -0.5,
+        "NO2": 1.0,
+        "NOX": 0.5,
+        "O3": 26.5,
+        "PM2.5": 13.0,
+        "TEMP": 4.5,
+        "WS": 2.6,
+        "WD": 35.0,
+        "RH": 59.4,
+        "AP": 950.3,
         "AQI": 13.0,
-        "AQHI_calc": 2.96,
+        "AQHI_calc": 2.54,
         "aqhi_display": 3,
         "aqhi_color": "#016797",
         "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.1667,
-          51.4667
-        ]
-      },
-      "properties": {
-        "station_name": "Kerrobert",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-18T05:00:00+00:00",
-        "SO2": 0.3,
-        "H2S": 0.6,
-        "PM2.5": 5.0,
-        "TEMP": 2.7,
-        "WS": 3.7,
-        "WD": 29.0,
-        "RH": 63.3,
-        "AP": 931.9,
-        "AQI": 4.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
       }
     },
     {
