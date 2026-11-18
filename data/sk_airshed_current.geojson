@@ -14,15 +14,15 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-18T07:00:00+00:00",
-        "SO2": 0.4,
+        "reading_date": "2026-11-18T08:00:00+00:00",
+        "SO2": 0.2,
         "H2S": 0.6,
         "PM2.5": 5.0,
-        "TEMP": 3.3,
-        "WS": 3.6,
-        "WD": 30.3,
-        "RH": 64.1,
-        "AP": 931.5,
+        "TEMP": 2.0,
+        "WS": 3.5,
+        "WD": 16.2,
+        "RH": 65.0,
+        "AP": 931.0,
         "AQI": 4.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
@@ -172,56 +172,6 @@
         "RH": 83.9,
         "AP": 937.5,
         "AQI": 12.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.9667,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Wauchope",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-18T05:00:00+00:00",
-        "SO2": -1.0,
-        "PM2.5": 2.8,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.85,
-          49.6608
-        ]
-      },
-      "properties": {
-        "station_name": "Weyburn",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-18T05:00:00+00:00",
-        "NO": -0.2,
-        "NO2": 1.0,
-        "NOX": 0.8,
-        "SO2": 0.3,
-        "H2S": 0.2,
-        "PM2.5": 6.6,
-        "WS": 5.4,
-        "WD": 63.7,
-        "AP": 73.0,
-        "AQI": 5.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
