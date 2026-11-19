@@ -51,7 +51,9 @@ STATIONS = [
     {"network": "WYAMZ", "province": "SK", "url": "https://wyamz.ca/meadow-lake-air-quality/", "lat": 54.1252, "lon": -108.4307},
     {"network": "WYAMZ", "province": "SK", "url": "https://wyamz.ca/clavet-air-quality/", "lat": 52.2667, "lon": -106.4000},
     {"network": "WYAMZ", "province": "SK", "url": "https://wyamz.ca/maidstone-air-quality/", "lat": 53.0961, "lon": -109.3106},
-    {"network": "WYAMZ", "province": "SK", "url": "https://wyamz.ca/kindersley-air-quality/", "lat": 51.4667, "lon": -109.1667},
+    # URL still says "kindersley" but WYAMZ's page H1 and menu both say
+    # Kerrobert; until 2026-11-19 this dot sat at Kindersley (~50 km south).
+    {"network": "WYAMZ", "province": "SK", "url": "https://wyamz.ca/kindersley-air-quality/", "lat": 51.9167, "lon": -109.1333},
     {"network": "WYAMZ", "province": "SK", "url": "https://wyamz.ca/lloydminster-west-air-quality/", "lat": 53.2783, "lon": -110.0011},
     {"network": "WYAMZ", "province": "SK", "url": "https://wyamz.ca/lloydminster-east-air-quality/", "lat": 53.2783, "lon": -110.0011},
     {"network": "SESAA", "province": "SK", "url": "https://sesaa.ca/esterhazy-air-quality/", "lat": 50.6497, "lon": -102.0839},
@@ -153,8 +155,15 @@ def parse_station(page, station):
     # never reaches "networkidle", so the old 30 s networkidle wait timed out
     # every hour from 2026-11-02. Wait for the DOM + the data table instead.
     page.goto(station["url"], timeout=90000, wait_until="domcontentloaded")
+    # Stop waiting as soon as either the data table or the source's own
+    # "Real-time data is currently unavailable" notice is on the page
+    # (SESAA/WYAMZ show that notice instead of a table during outages).
     try:
-        page.wait_for_selector("table tr td", timeout=30000)
+        page.wait_for_function(
+            "() => document.querySelector('table tr td') || "
+            "/currently unavailable/i.test(document.body ? document.body.innerText : '')",
+            timeout=30000,
+        )
     except Exception:
         pass  # handled below as "no table found"
     page.wait_for_timeout(1000)
@@ -170,7 +179,11 @@ def parse_station(page, station):
 
     table = page.query_selector("table")
     if not table:
-        print(f"[WARN] no table found for {station['url']}")
+        body = page.inner_text("body") if page.query_selector("body") else ""
+        if re.search(r"currently unavailable", body, re.I):
+            print(f"[SOURCE DOWN] {name}: site says real-time data is currently unavailable ({station['url']})")
+        else:
+            print(f"[WARN] no table found for {station['url']}")
         return name, []
 
     rows = table.query_selector_all("tr")
