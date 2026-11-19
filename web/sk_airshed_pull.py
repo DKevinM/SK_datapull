@@ -263,6 +263,7 @@ def main():
                     "lat": station["lat"],
                     "lon": station["lon"],
                     "reading_date": latest_ts,
+                    "source_url": station["url"],
                     "params": {
                         r["parameter_name"]: r["value"]
                         for r in records if r["reading_date"] == latest_ts
@@ -339,14 +340,51 @@ def main():
                 "network": info["network"],
                 "province": info["province"],
                 "reading_date": info["reading_date"],
+                "source_url": info["source_url"],
                 **info["params"],
                 "aqhi_display": aqhi_display,
                 "aqhi_color": aqhi_color(aqhi_display),
                 "aqhi_category": aqhi_category(aqhi_display) if aqhi_display is not None else None,
             },
         })
-    geojson = {"type": "FeatureCollection", "features": features}
+
+    # Hold-over: a station whose page is down this hour (SESAA/WYAMZ
+    # "currently unavailable" outages come and go) keeps its last map entry
+    # from the previous snapshot while that reading is <= STALE_HOURS old,
+    # marked held=true so SK_Air_Map can show it faded. Coordinates come from
+    # STATIONS via source_url (entries written before source_url existed are
+    # not held, so an old wrong position can't be carried forward).
     out_path = os.path.join(os.path.dirname(__file__), "..", "data", "sk_airshed_current.geojson")
+    coords_by_url = {s["url"]: [s["lon"], s["lat"]] for s in STATIONS}
+    fresh_urls = {info["source_url"] for info in latest_by_station.values()}
+    try:
+        with open(out_path) as f:
+            previous = json.load(f).get("features", [])
+    except Exception:
+        previous = []
+    for feat in previous:
+        props = dict(feat.get("properties") or {})
+        url = props.get("source_url")
+        if url not in coords_by_url or url in fresh_urls or props.get("station_name") in stale:
+            continue
+        try:
+            age = now - datetime.fromisoformat(props["reading_date"])
+        except Exception:
+            continue
+        if age > timedelta(hours=STALE_HOURS):
+            print(f"[DROPPED] {props.get('station_name')}: last reading {props['reading_date']} "
+                  f"is over {STALE_HOURS} h old, removed from the map")
+            continue
+        props["held"] = True
+        features.append({
+            "type": "Feature",
+            "geometry": {"type": "Point", "coordinates": coords_by_url[url]},
+            "properties": props,
+        })
+        print(f"[HELD] {props.get('station_name')}: page down this run, showing last reading "
+              f"{props['reading_date']} ({age.total_seconds() / 3600:.1f} h old)")
+
+    geojson = {"type": "FeatureCollection", "features": features}
     with open(out_path, "w") as f:
         json.dump(geojson, f, indent=2)
     print(f"Wrote {len(features)} stations to {out_path}")
