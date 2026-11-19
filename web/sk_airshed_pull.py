@@ -37,6 +37,9 @@ from playwright.sync_api import sync_playwright
 from supabase import create_client
 
 STATION_DELAY_SEC = 10
+STALE_HOURS = 6  # newest reading older than this = kept off the map + one ALERT
+STALE_STATE = "/opt/airquality/logs/sk_airshed_stale_state.json"
+ALERTS_LOG = "/opt/airquality/logs/sitrep_alerts.log"
 
 # SK observes no DST (CST year-round, UTC-6)
 SK_UTC_OFFSET = timedelta(hours=-6)
@@ -146,8 +149,15 @@ def aqhi_3h(hours):
 
 
 def parse_station(page, station):
-    page.goto(station["url"], timeout=30000, wait_until="networkidle")
-    page.wait_for_timeout(3000)
+    # GPAZ's server takes ~40 s to return the HTML (Nov 2026) and its page
+    # never reaches "networkidle", so the old 30 s networkidle wait timed out
+    # every hour from 2026-11-02. Wait for the DOM + the data table instead.
+    page.goto(station["url"], timeout=90000, wait_until="domcontentloaded")
+    try:
+        page.wait_for_selector("table tr td", timeout=30000)
+    except Exception:
+        pass  # handled below as "no table found"
+    page.wait_for_timeout(1000)
 
     if "name" in station:
         # GPAZ's H1 is just "GPAZ" (no per-station name like WYAMZ/SESAA's
@@ -264,6 +274,39 @@ def main():
             print(f"Upserted {len(all_records)} records into airpointer_data")
         except Exception as e:
             print(f"[WARN] Supabase upsert failed (table may not exist yet): {e}")
+
+    # Stale stations: still upserted above, but kept off the map (SK_Air_Map
+    # shows whatever is in the snapshot, with no age check) and alerted once
+    # on going stale / coming back. GPAZ East Regina stopped publishing
+    # 2026-11-02 14:00Z while its page kept serving the old table.
+    now = datetime.now(timezone.utc)
+    stale = {
+        n: info["reading_date"] for n, info in latest_by_station.items()
+        if now - datetime.fromisoformat(info["reading_date"]) > timedelta(hours=STALE_HOURS)
+    }
+    for n, ts in stale.items():
+        print(f"[STALE] {n}: newest reading {ts}, kept off the map")
+        latest_by_station.pop(n)
+    try:
+        with open(STALE_STATE) as f:
+            was_stale = set(json.load(f))
+    except Exception:
+        was_stale = set()
+    stamp = now.replace(microsecond=0).isoformat()
+    try:
+        with open(ALERTS_LOG, "a") as f:
+            for n in sorted(set(stale) - was_stale):
+                f.write(f"{stamp} ALERT sk_airshed: '{n}' went STALE - newest reading "
+                        f"{stale[n]} (> {STALE_HOURS} h old); scraped but kept off the SK map\n")
+            for n in sorted(was_stale - set(stale)):
+                if n in latest_by_station:  # only call it fresh if we actually saw new data
+                    f.write(f"{stamp} ALERT sk_airshed: '{n}' back to FRESH - newest reading "
+                            f"{latest_by_station[n]['reading_date']}; back on the SK map\n")
+        still = set(stale) | {n for n in was_stale if n not in latest_by_station}
+        with open(STALE_STATE, "w") as f:
+            json.dump(sorted(still), f)
+    except Exception as e:
+        print(f"[WARN] stale-alert bookkeeping failed: {e}")
 
     # GeoJSON snapshot for SK_Air_Map
     features = []
