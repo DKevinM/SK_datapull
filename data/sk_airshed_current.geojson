@@ -6,6 +6,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -108.4307,
+          54.1252
+        ]
+      },
+      "properties": {
+        "station_name": "Meadow Lake",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-20T09:00:00+00:00",
+        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
+        "NO": 0.0,
+        "NO2": 2.0,
+        "NOX": 2.0,
+        "O3": 25.9,
+        "PM2.5": 17.8,
+        "TEMP": 2.9,
+        "WS": 1.0,
+        "WD": 181.6,
+        "RH": 67.7,
+        "AP": 953.2,
+        "AQI": 15.0,
+        "AQHI_calc": 2.1,
+        "aqhi_display": 2,
+        "aqhi_color": "#0099cb",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -106.4,
           52.2667
         ]
@@ -14,20 +46,20 @@
         "station_name": "Clavet",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-20T08:00:00+00:00",
+        "reading_date": "2026-11-20T09:00:00+00:00",
         "source_url": "https://wyamz.ca/clavet-air-quality/",
-        "NO": -0.2,
-        "NO2": 2.2,
-        "NOX": 2.1,
-        "O3": 15.9,
+        "NO": -0.1,
+        "NO2": 1.4,
+        "NOX": 1.4,
+        "O3": 15.1,
         "PM2.5": 1.0,
-        "TEMP": 1.3,
-        "WS": 0.9,
-        "WD": 112.7,
-        "RH": 81.6,
-        "AP": 949.8,
+        "TEMP": 0.8,
+        "WS": 1.0,
+        "WD": 98.0,
+        "RH": 84.8,
+        "AP": 948.7,
         "AQI": 8.0,
-        "AQHI_calc": 1.05,
+        "AQHI_calc": 1.0,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
@@ -46,16 +78,16 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-20T08:00:00+00:00",
+        "reading_date": "2026-11-20T09:00:00+00:00",
         "source_url": "https://wyamz.ca/kindersley-air-quality/",
         "SO2": 0.2,
-        "H2S": 0.7,
-        "PM2.5": 4.0,
-        "TEMP": 0.1,
-        "WS": 1.6,
-        "WD": 94.4,
-        "RH": 85.2,
-        "AP": 928.8,
+        "H2S": 0.5,
+        "PM2.5": 5.0,
+        "TEMP": 0.3,
+        "WS": 1.4,
+        "WD": 51.4,
+        "RH": 84.8,
+        "AP": 928.0,
         "AQI": 4.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
@@ -75,22 +107,22 @@
         "station_name": "Esterhazy",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-11-20T05:00:00+00:00",
+        "reading_date": "2026-11-20T08:00:00+00:00",
         "source_url": "https://sesaa.ca/esterhazy-air-quality/",
-        "NO": 0.7,
-        "NO2": 5.7,
-        "NOX": 6.4,
-        "O3": 11.9,
-        "PM2.5": 5.6,
-        "TEMP": 1.7,
-        "WS": 0.7,
-        "WD": 75.5,
-        "RH": 79.5,
-        "AP": 955.3,
-        "AQI": 6.0,
-        "AQHI_calc": 1.54,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
+        "NO": 0.5,
+        "NO2": 3.2,
+        "NOX": 3.6,
+        "O3": 17.2,
+        "PM2.5": 3.0,
+        "TEMP": 1.6,
+        "WS": 1.5,
+        "WD": 72.2,
+        "RH": 80.3,
+        "AP": 953.2,
+        "AQI": 9.0,
+        "AQHI_calc": 1.27,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
       }
     },
@@ -107,16 +139,75 @@
         "station_name": "Glen Ewen",
         "network": "SESAA",
         "province": "SK",
-        "reading_date": "2026-11-20T05:00:00+00:00",
+        "reading_date": "2026-11-20T08:00:00+00:00",
         "source_url": "https://sesaa.ca/glen-ewen-air-quality/",
-        "SO2": 0.3,
-        "H2S": 0.8,
-        "O3": 12.4,
-        "TEMP": 2.3,
-        "WS": 2.3,
-        "WD": 121.0,
-        "RH": 92.9,
-        "AP": 947.4,
+        "SO2": 0.4,
+        "H2S": 1.0,
+        "O3": 14.7,
+        "TEMP": 2.6,
+        "WS": 2.4,
+        "WD": 167.9,
+        "RH": 93.3,
+        "AP": 945.5,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.5333,
+          49.1333
+        ]
+      },
+      "properties": {
+        "station_name": "Torquay",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-20T08:00:00+00:00",
+        "source_url": "https://sesaa.ca/torquay-air-quality/",
+        "SO2": 0.2,
+        "H2S": -0.9,
+        "PM2.5": 5.2,
+        "TEMP": 2.6,
+        "WS": 3.2,
+        "WD": 143.4,
+        "RH": 91.2,
+        "AP": 943.6,
+        "AQI": 4.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.85,
+          49.6608
+        ]
+      },
+      "properties": {
+        "station_name": "Weyburn",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-20T08:00:00+00:00",
+        "source_url": "https://sesaa.ca/weyburn-air-quality/",
+        "NO": -0.3,
+        "NO2": 0.7,
+        "NOX": 0.4,
+        "SO2": 0.4,
+        "H2S": 0.6,
+        "PM2.5": 4.1,
+        "WS": 1.2,
+        "WD": 170.5,
+        "AP": 83.8,
+        "AQI": 3.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
@@ -151,7 +242,8 @@
         "AQI": 8.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
+        "aqhi_category": null,
+        "held": true
       }
     },
     {
@@ -183,36 +275,8 @@
         "AQI": 3.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.5333,
-          49.1333
-        ]
-      },
-      "properties": {
-        "station_name": "Torquay",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-20T05:00:00+00:00",
-        "source_url": "https://sesaa.ca/torquay-air-quality/",
-        "SO2": 0.1,
-        "H2S": -0.7,
-        "PM2.5": 6.7,
-        "TEMP": 2.9,
-        "WS": 3.5,
-        "WD": 134.2,
-        "RH": 86.8,
-        "AP": 945.6,
-        "AQI": 6.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
+        "aqhi_category": null,
+        "held": true
       }
     },
     {
@@ -234,69 +298,7 @@
         "PM2.5": 1.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.85,
-          49.6608
-        ]
-      },
-      "properties": {
-        "station_name": "Weyburn",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-20T05:00:00+00:00",
-        "source_url": "https://sesaa.ca/weyburn-air-quality/",
-        "NO": -0.2,
-        "NO2": 0.3,
-        "NOX": 0.1,
-        "SO2": 0.4,
-        "H2S": 0.1,
-        "PM2.5": 22.6,
-        "WS": 1.4,
-        "WD": 126.4,
-        "AP": 82.3,
-        "AQI": 19.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-20T06:00:00+00:00",
-        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
-        "NO": -0.2,
-        "NO2": 2.4,
-        "NOX": 2.2,
-        "O3": 25.1,
-        "PM2.5": 7.0,
-        "TEMP": 3.2,
-        "WS": 1.4,
-        "WD": 202.0,
-        "RH": 66.8,
-        "AP": 954.3,
-        "AQI": 13.0,
-        "AQHI_calc": 1.85,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low",
+        "aqhi_category": null,
         "held": true
       }
     }
