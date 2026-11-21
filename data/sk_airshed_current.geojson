@@ -6,6 +6,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -106.4,
+          52.2667
+        ]
+      },
+      "properties": {
+        "station_name": "Clavet",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-21T07:00:00+00:00",
+        "source_url": "https://wyamz.ca/clavet-air-quality/",
+        "NO": 0.9,
+        "NO2": 3.1,
+        "NOX": 3.9,
+        "O3": 9.5,
+        "PM2.5": 1.0,
+        "TEMP": -1.5,
+        "WS": 2.4,
+        "WD": 268.3,
+        "RH": 83.9,
+        "AP": 944.8,
+        "AQI": 5.0,
+        "AQHI_calc": 0.95,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.1333,
+          51.9167
+        ]
+      },
+      "properties": {
+        "station_name": "Kerrobert",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-21T07:00:00+00:00",
+        "source_url": "https://wyamz.ca/kindersley-air-quality/",
+        "SO2": 0.3,
+        "H2S": 0.6,
+        "PM2.5": 1.0,
+        "TEMP": -4.7,
+        "WS": 4.9,
+        "WD": 334.6,
+        "RH": 82.2,
+        "AP": 927.3,
+        "AQI": 3.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -102.0839,
           50.6497
         ]
@@ -172,69 +233,6 @@
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.4,
-          52.2667
-        ]
-      },
-      "properties": {
-        "station_name": "Clavet",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-21T05:00:00+00:00",
-        "source_url": "https://wyamz.ca/clavet-air-quality/",
-        "NO": 0.1,
-        "NO2": 2.3,
-        "NOX": 2.4,
-        "O3": 14.9,
-        "PM2.5": 2.0,
-        "TEMP": -0.9,
-        "WS": 3.4,
-        "WD": 274.6,
-        "RH": 84.8,
-        "AP": 944.7,
-        "AQI": 7.0,
-        "AQHI_calc": 1.1,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low",
-        "held": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.1333,
-          51.9167
-        ]
-      },
-      "properties": {
-        "station_name": "Kerrobert",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-21T05:00:00+00:00",
-        "source_url": "https://wyamz.ca/kindersley-air-quality/",
-        "SO2": 0.2,
-        "H2S": 0.7,
-        "PM2.5": 2.0,
-        "TEMP": -4.7,
-        "WS": 3.6,
-        "WD": 326.1,
-        "RH": 81.3,
-        "AP": 927.5,
-        "AQI": 4.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null,
-        "held": true
       }
     }
   ]
