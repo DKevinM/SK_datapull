@@ -6,6 +6,176 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -109.1333,
+          51.9167
+        ]
+      },
+      "properties": {
+        "station_name": "Kerrobert",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-23T08:00:00+00:00",
+        "source_url": "https://wyamz.ca/kindersley-air-quality/",
+        "SO2": 0.2,
+        "H2S": 0.4,
+        "PM2.5": 3.0,
+        "TEMP": -4.7,
+        "WS": 3.7,
+        "WD": 178.8,
+        "RH": 70.3,
+        "AP": 942.1,
+        "AQI": 2.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0839,
+          50.6497
+        ]
+      },
+      "properties": {
+        "station_name": "Esterhazy",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-23T08:00:00+00:00",
+        "source_url": "https://sesaa.ca/esterhazy-air-quality/",
+        "NO": 0.6,
+        "NO2": 6.8,
+        "NOX": 7.4,
+        "O3": 21.3,
+        "PM2.5": 2.6,
+        "TEMP": -12.3,
+        "WS": 1.3,
+        "WD": 238.1,
+        "RH": 76.4,
+        "AP": 966.8,
+        "AQI": 11.0,
+        "AQHI_calc": 1.74,
+        "aqhi_display": 2,
+        "aqhi_color": "#0099cb",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7194,
+          49.1936
+        ]
+      },
+      "properties": {
+        "station_name": "Glen Ewen",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-23T08:00:00+00:00",
+        "source_url": "https://sesaa.ca/glen-ewen-air-quality/",
+        "SO2": 0.6,
+        "H2S": 0.9,
+        "O3": 19.8,
+        "TEMP": -9.1,
+        "WS": 2.5,
+        "WD": 273.3,
+        "RH": 82.9,
+        "AP": 960.5,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.5333,
+          49.1333
+        ]
+      },
+      "properties": {
+        "station_name": "Torquay",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-23T08:00:00+00:00",
+        "source_url": "https://sesaa.ca/torquay-air-quality/",
+        "SO2": 0.4,
+        "H2S": -1.3,
+        "PM2.5": 2.4,
+        "TEMP": -8.1,
+        "WS": 2.5,
+        "WD": 229.4,
+        "RH": 72.5,
+        "AP": 959.3,
+        "AQI": 2.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9667,
+          49.6667
+        ]
+      },
+      "properties": {
+        "station_name": "Wauchope",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-23T08:00:00+00:00",
+        "source_url": "https://sesaa.ca/wauchope-air-quality/",
+        "SO2": 0.1,
+        "PM2.5": -1.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.85,
+          49.6608
+        ]
+      },
+      "properties": {
+        "station_name": "Weyburn",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-23T08:00:00+00:00",
+        "source_url": "https://sesaa.ca/weyburn-air-quality/",
+        "NO": -0.6,
+        "NO2": -0.6,
+        "NOX": -1.1,
+        "SO2": 0.0,
+        "H2S": -0.4,
+        "PM2.5": 3.8,
+        "WS": 2.4,
+        "WD": 239.3,
+        "AP": 69.9,
+        "AQI": 3.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -108.4307,
           54.1252
         ]
@@ -30,96 +200,8 @@
         "AQHI_calc": 2.6,
         "aqhi_display": 3,
         "aqhi_color": "#016797",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.1333,
-          51.9167
-        ]
-      },
-      "properties": {
-        "station_name": "Kerrobert",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-23T07:00:00+00:00",
-        "source_url": "https://wyamz.ca/kindersley-air-quality/",
-        "SO2": 0.2,
-        "H2S": 0.5,
-        "PM2.5": 2.0,
-        "TEMP": -4.6,
-        "WS": 3.2,
-        "WD": 169.1,
-        "RH": 69.8,
-        "AP": 942.4,
-        "AQI": 3.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.0839,
-          50.6497
-        ]
-      },
-      "properties": {
-        "station_name": "Esterhazy",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-23T05:00:00+00:00",
-        "source_url": "https://sesaa.ca/esterhazy-air-quality/",
-        "NO": 1.0,
-        "NO2": 8.9,
-        "NOX": 10.0,
-        "O3": 17.3,
-        "PM2.5": 2.7,
-        "TEMP": -14.3,
-        "WS": 0.9,
-        "WD": 236.2,
-        "RH": 74.0,
-        "AP": 966.9,
-        "AQI": 9.0,
-        "AQHI_calc": 1.81,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.7194,
-          49.1936
-        ]
-      },
-      "properties": {
-        "station_name": "Glen Ewen",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-23T05:00:00+00:00",
-        "source_url": "https://sesaa.ca/glen-ewen-air-quality/",
-        "SO2": 0.6,
-        "H2S": 0.9,
-        "O3": 23.7,
-        "TEMP": -8.7,
-        "WS": 2.1,
-        "WD": 314.7,
-        "RH": 79.1,
-        "AP": 960.2,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
+        "aqhi_category": "Low",
+        "held": true
       }
     },
     {
@@ -151,7 +233,8 @@
         "AQI": 5.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
+        "aqhi_category": null,
+        "held": true
       }
     },
     {
@@ -183,58 +266,8 @@
         "AQI": 6.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.5333,
-          49.1333
-        ]
-      },
-      "properties": {
-        "station_name": "Torquay",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-23T05:00:00+00:00",
-        "source_url": "https://sesaa.ca/torquay-air-quality/",
-        "SO2": 0.2,
-        "H2S": -1.3,
-        "PM2.5": 2.9,
-        "TEMP": -7.6,
-        "WS": 1.4,
-        "WD": 266.9,
-        "RH": 70.6,
-        "AP": 959.0,
-        "AQI": 2.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.9667,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Wauchope",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-23T05:00:00+00:00",
-        "source_url": "https://sesaa.ca/wauchope-air-quality/",
-        "SO2": 0.0,
-        "PM2.5": 1.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
+        "aqhi_category": null,
+        "held": true
       }
     },
     {
