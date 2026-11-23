@@ -6,70 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-23T05:00:00+00:00",
-        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
-        "NO": 0.5,
-        "NO2": 2.0,
-        "NOX": 2.5,
-        "O3": 17.2,
-        "PM2.5": 16.8,
-        "TEMP": -9.4,
-        "WS": 0.5,
-        "WD": 210.9,
-        "RH": 73.0,
-        "AP": 968.1,
-        "AQI": 14.0,
-        "AQHI_calc": 1.6,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.4,
-          52.2667
-        ]
-      },
-      "properties": {
-        "station_name": "Clavet",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-23T05:00:00+00:00",
-        "source_url": "https://wyamz.ca/clavet-air-quality/",
-        "NO": -0.1,
-        "NO2": 0.4,
-        "NOX": 0.3,
-        "O3": 30.4,
-        "PM2.5": 0.0,
-        "TEMP": -7.0,
-        "WS": 1.5,
-        "WD": 209.8,
-        "RH": 82.1,
-        "AP": 964.9,
-        "AQI": 15.0,
-        "AQHI_calc": 1.62,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.1333,
           51.9167
         ]
@@ -78,17 +14,17 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-23T05:00:00+00:00",
+        "reading_date": "2026-11-23T06:00:00+00:00",
         "source_url": "https://wyamz.ca/kindersley-air-quality/",
-        "SO2": 0.1,
-        "H2S": 0.5,
+        "SO2": 0.2,
+        "H2S": 0.4,
         "PM2.5": 2.0,
-        "TEMP": -5.0,
-        "WS": 2.3,
-        "WD": 158.8,
-        "RH": 73.0,
-        "AP": 942.6,
-        "AQI": 3.0,
+        "TEMP": -4.5,
+        "WS": 3.0,
+        "WD": 169.2,
+        "RH": 68.8,
+        "AP": 942.5,
+        "AQI": 2.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
@@ -267,6 +203,72 @@
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.4307,
+          54.1252
+        ]
+      },
+      "properties": {
+        "station_name": "Meadow Lake",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-23T05:00:00+00:00",
+        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
+        "NO": 0.5,
+        "NO2": 2.0,
+        "NOX": 2.5,
+        "O3": 17.2,
+        "PM2.5": 16.8,
+        "TEMP": -9.4,
+        "WS": 0.5,
+        "WD": 210.9,
+        "RH": 73.0,
+        "AP": 968.1,
+        "AQI": 14.0,
+        "AQHI_calc": 1.6,
+        "aqhi_display": 2,
+        "aqhi_color": "#0099cb",
+        "aqhi_category": "Low",
+        "held": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.4,
+          52.2667
+        ]
+      },
+      "properties": {
+        "station_name": "Clavet",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-23T05:00:00+00:00",
+        "source_url": "https://wyamz.ca/clavet-air-quality/",
+        "NO": -0.1,
+        "NO2": 0.4,
+        "NOX": 0.3,
+        "O3": 30.4,
+        "PM2.5": 0.0,
+        "TEMP": -7.0,
+        "WS": 1.5,
+        "WD": 209.8,
+        "RH": 82.1,
+        "AP": 964.9,
+        "AQI": 15.0,
+        "AQHI_calc": 1.62,
+        "aqhi_display": 2,
+        "aqhi_color": "#0099cb",
+        "aqhi_category": "Low",
+        "held": true
       }
     },
     {
