@@ -6,99 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-25T05:00:00+00:00",
-        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
-        "NO": -0.1,
-        "NO2": 1.2,
-        "NOX": 1.1,
-        "O3": 26.7,
-        "PM2.5": 7.0,
-        "TEMP": -7.5,
-        "WS": 0.8,
-        "WD": 111.3,
-        "RH": 73.3,
-        "AP": 957.8,
-        "AQI": 13.0,
-        "AQHI_calc": 1.87,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.4,
-          52.2667
-        ]
-      },
-      "properties": {
-        "station_name": "Clavet",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-25T05:00:00+00:00",
-        "source_url": "https://wyamz.ca/clavet-air-quality/",
-        "NO": 0.5,
-        "NO2": 8.4,
-        "NOX": 8.9,
-        "O3": 10.4,
-        "PM2.5": 3.0,
-        "TEMP": -12.7,
-        "WS": 1.0,
-        "WD": 77.3,
-        "RH": 80.9,
-        "AP": 956.7,
-        "AQI": 5.0,
-        "AQHI_calc": 1.43,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.1333,
-          51.9167
-        ]
-      },
-      "properties": {
-        "station_name": "Kerrobert",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-25T05:00:00+00:00",
-        "source_url": "https://wyamz.ca/kindersley-air-quality/",
-        "SO2": 0.1,
-        "H2S": 0.1,
-        "PM2.5": 4.0,
-        "TEMP": -8.8,
-        "WS": 3.6,
-        "WD": 145.5,
-        "RH": 75.7,
-        "AP": 932.6,
-        "AQI": 3.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -102.0839,
           50.6497
         ]
@@ -232,33 +139,95 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.50604,
-          50.453414
+          -108.4307,
+          54.1252
         ]
       },
       "properties": {
-        "station_name": "East Regina",
-        "network": "GPAZ",
+        "station_name": "Meadow Lake",
+        "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-25T01:00:00+00:00",
-        "source_url": "https://www.gpaz.org/airquality/airqualityCB.php?CB=EastRegina",
-        "NO": 9.2,
-        "NO2": 14.1,
-        "NOX": 23.4,
-        "SO2": 1.7,
-        "H2S": 0.0,
-        "O3": 3.3,
-        "PM2.5": 10.7,
-        "TEMP": -2.53,
-        "WS": 2.2,
-        "WD": 166.0,
-        "RH": 86.3,
-        "AP": 0.0,
-        "PRE": 0.0,
-        "AQHI_calc": 1.82,
+        "reading_date": "2026-11-25T05:00:00+00:00",
+        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
+        "NO": -0.1,
+        "NO2": 1.2,
+        "NOX": 1.1,
+        "O3": 26.7,
+        "PM2.5": 7.0,
+        "TEMP": -7.5,
+        "WS": 0.8,
+        "WD": 111.3,
+        "RH": 73.3,
+        "AP": 957.8,
+        "AQI": 13.0,
+        "AQHI_calc": 1.87,
         "aqhi_display": 2,
         "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
+        "aqhi_category": "Low",
+        "held": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.4,
+          52.2667
+        ]
+      },
+      "properties": {
+        "station_name": "Clavet",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-25T05:00:00+00:00",
+        "source_url": "https://wyamz.ca/clavet-air-quality/",
+        "NO": 0.5,
+        "NO2": 8.4,
+        "NOX": 8.9,
+        "O3": 10.4,
+        "PM2.5": 3.0,
+        "TEMP": -12.7,
+        "WS": 1.0,
+        "WD": 77.3,
+        "RH": 80.9,
+        "AP": 956.7,
+        "AQI": 5.0,
+        "AQHI_calc": 1.43,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low",
+        "held": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.1333,
+          51.9167
+        ]
+      },
+      "properties": {
+        "station_name": "Kerrobert",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-25T05:00:00+00:00",
+        "source_url": "https://wyamz.ca/kindersley-air-quality/",
+        "SO2": 0.1,
+        "H2S": 0.1,
+        "PM2.5": 4.0,
+        "TEMP": -8.8,
+        "WS": 3.6,
+        "WD": 145.5,
+        "RH": 75.7,
+        "AP": 932.6,
+        "AQI": 3.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null,
+        "held": true
       }
     }
   ]
