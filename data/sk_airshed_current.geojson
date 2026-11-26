@@ -6,38 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-26T13:00:00+00:00",
-        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
-        "NO": 9.2,
-        "NO2": 11.8,
-        "NOX": 20.9,
-        "O3": 0.9,
-        "PM2.5": 8.2,
-        "TEMP": -5.3,
-        "WS": 0.2,
-        "WD": 345.8,
-        "RH": 75.4,
-        "AP": 953.2,
-        "AQI": 7.0,
-        "AQHI_calc": 1.47,
-        "aqhi_display": 1,
-        "aqhi_color": "#01cbff",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -106.4,
           52.2667
         ]
@@ -46,20 +14,20 @@
         "station_name": "Clavet",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-26T13:00:00+00:00",
+        "reading_date": "2026-11-26T14:00:00+00:00",
         "source_url": "https://wyamz.ca/clavet-air-quality/",
-        "NO": 0.5,
-        "NO2": 1.6,
-        "NOX": 2.1,
-        "O3": 21.2,
+        "NO": 1.4,
+        "NO2": 4.3,
+        "NOX": 5.6,
+        "O3": 17.8,
         "PM2.5": 1.0,
-        "TEMP": -2.0,
-        "WS": 1.6,
-        "WD": 199.0,
-        "RH": 81.8,
-        "AP": 950.6,
-        "AQI": 11.0,
-        "AQHI_calc": 1.28,
+        "TEMP": -2.6,
+        "WS": 0.7,
+        "WD": 168.9,
+        "RH": 82.4,
+        "AP": 950.4,
+        "AQI": 9.0,
+        "AQHI_calc": 1.29,
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
@@ -78,16 +46,16 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-26T13:00:00+00:00",
+        "reading_date": "2026-11-26T14:00:00+00:00",
         "source_url": "https://wyamz.ca/kindersley-air-quality/",
-        "SO2": 0.1,
+        "SO2": 0.2,
         "H2S": 0.2,
         "PM2.5": 3.0,
-        "TEMP": -1.7,
-        "WS": 3.0,
-        "WD": 219.9,
-        "RH": 78.1,
-        "AP": 929.5,
+        "TEMP": -0.5,
+        "WS": 2.7,
+        "WD": 217.8,
+        "RH": 77.7,
+        "AP": 928.8,
         "AQI": 2.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
@@ -297,6 +265,73 @@
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
         "aqhi_category": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.50604,
+          50.453414
+        ]
+      },
+      "properties": {
+        "station_name": "East Regina",
+        "network": "GPAZ",
+        "province": "SK",
+        "reading_date": "2026-11-26T15:00:00+00:00",
+        "source_url": "https://www.gpaz.org/airquality/airqualityCB.php?CB=EastRegina",
+        "NO": 5.3,
+        "NO2": 9.7,
+        "NOX": 14.9,
+        "SO2": 1.7,
+        "H2S": 0.0,
+        "O3": 5.1,
+        "PM2.5": 1.8,
+        "TEMP": -4.7,
+        "WS": 1.8,
+        "WD": 133.0,
+        "RH": 92.4,
+        "AP": 0.0,
+        "PRE": 0.0,
+        "AQHI_calc": 0.98,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.4307,
+          54.1252
+        ]
+      },
+      "properties": {
+        "station_name": "Meadow Lake",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-26T13:00:00+00:00",
+        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
+        "NO": 9.2,
+        "NO2": 11.8,
+        "NOX": 20.9,
+        "O3": 0.9,
+        "PM2.5": 8.2,
+        "TEMP": -5.3,
+        "WS": 0.2,
+        "WD": 345.8,
+        "RH": 75.4,
+        "AP": 953.2,
+        "AQI": 7.0,
+        "AQHI_calc": 1.47,
+        "aqhi_display": 1,
+        "aqhi_color": "#01cbff",
+        "aqhi_category": "Low",
+        "held": true
       }
     }
   ]
