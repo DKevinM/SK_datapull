@@ -6,38 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.4307,
-          54.1252
-        ]
-      },
-      "properties": {
-        "station_name": "Meadow Lake",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-26T05:00:00+00:00",
-        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
-        "NO": 11.1,
-        "NO2": 15.9,
-        "NOX": 27.0,
-        "O3": 3.5,
-        "PM2.5": 12.0,
-        "TEMP": -4.5,
-        "WS": 0.2,
-        "WD": 190.6,
-        "RH": 76.4,
-        "AP": 954.1,
-        "AQI": 10.0,
-        "AQHI_calc": 2.2,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -106.4,
           52.2667
         ]
@@ -46,52 +14,23 @@
         "station_name": "Clavet",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-26T05:00:00+00:00",
+        "reading_date": "2026-11-26T06:00:00+00:00",
         "source_url": "https://wyamz.ca/clavet-air-quality/",
-        "NO": 1.0,
-        "NO2": 3.2,
-        "NOX": 4.2,
-        "O3": 21.7,
-        "PM2.5": 16.0,
-        "TEMP": 0.0,
-        "WS": 2.3,
-        "WD": 208.5,
-        "RH": 82.3,
-        "AP": 951.1,
-        "AQI": 13.0,
-        "AQHI_calc": 2.26,
+        "NO": 0.3,
+        "NO2": 2.0,
+        "NOX": 2.3,
+        "O3": 22.4,
+        "PM2.5": 11.1,
+        "TEMP": -0.2,
+        "WS": 2.0,
+        "WD": 209.6,
+        "RH": 82.1,
+        "AP": 951.6,
+        "AQI": 11.0,
+        "AQHI_calc": 2.1,
         "aqhi_display": 2,
         "aqhi_color": "#0099cb",
         "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.1333,
-          51.9167
-        ]
-      },
-      "properties": {
-        "station_name": "Kerrobert",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-26T05:00:00+00:00",
-        "source_url": "https://wyamz.ca/kindersley-air-quality/",
-        "SO2": 0.3,
-        "H2S": 0.3,
-        "PM2.5": 4.0,
-        "TEMP": 0.2,
-        "WS": 2.5,
-        "WD": 228.4,
-        "RH": 74.4,
-        "AP": 931.1,
-        "AQI": 3.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
       }
     },
     {
@@ -183,35 +122,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.5333,
-          49.1333
-        ]
-      },
-      "properties": {
-        "station_name": "Torquay",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-26T03:00:00+00:00",
-        "source_url": "https://sesaa.ca/torquay-air-quality/",
-        "SO2": 0.1,
-        "H2S": -0.9,
-        "PM2.5": 2.0,
-        "TEMP": 3.9,
-        "WS": 4.9,
-        "WD": 214.7,
-        "RH": 64.1,
-        "AP": 949.7,
-        "AQI": 2.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -101.9667,
           49.6667
         ]
@@ -285,6 +195,99 @@
         "aqhi_display": 1,
         "aqhi_color": "#01cbff",
         "aqhi_category": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.4307,
+          54.1252
+        ]
+      },
+      "properties": {
+        "station_name": "Meadow Lake",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-26T05:00:00+00:00",
+        "source_url": "https://wyamz.ca/meadow-lake-air-quality/",
+        "NO": 11.1,
+        "NO2": 15.9,
+        "NOX": 27.0,
+        "O3": 3.5,
+        "PM2.5": 12.0,
+        "TEMP": -4.5,
+        "WS": 0.2,
+        "WD": 190.6,
+        "RH": 76.4,
+        "AP": 954.1,
+        "AQI": 10.0,
+        "AQHI_calc": 2.2,
+        "aqhi_display": 2,
+        "aqhi_color": "#0099cb",
+        "aqhi_category": "Low",
+        "held": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.1333,
+          51.9167
+        ]
+      },
+      "properties": {
+        "station_name": "Kerrobert",
+        "network": "WYAMZ",
+        "province": "SK",
+        "reading_date": "2026-11-26T05:00:00+00:00",
+        "source_url": "https://wyamz.ca/kindersley-air-quality/",
+        "SO2": 0.3,
+        "H2S": 0.3,
+        "PM2.5": 4.0,
+        "TEMP": 0.2,
+        "WS": 2.5,
+        "WD": 228.4,
+        "RH": 74.4,
+        "AP": 931.1,
+        "AQI": 3.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null,
+        "held": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.5333,
+          49.1333
+        ]
+      },
+      "properties": {
+        "station_name": "Torquay",
+        "network": "SESAA",
+        "province": "SK",
+        "reading_date": "2026-11-26T03:00:00+00:00",
+        "source_url": "https://sesaa.ca/torquay-air-quality/",
+        "SO2": 0.1,
+        "H2S": -0.9,
+        "PM2.5": 2.0,
+        "TEMP": 3.9,
+        "WS": 4.9,
+        "WD": 214.7,
+        "RH": 64.1,
+        "AP": 949.7,
+        "AQI": 2.0,
+        "aqhi_display": null,
+        "aqhi_color": "#D3D3D3",
+        "aqhi_category": null,
+        "held": true
       }
     }
   ]
