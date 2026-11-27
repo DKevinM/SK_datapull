@@ -6,38 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.4,
-          52.2667
-        ]
-      },
-      "properties": {
-        "station_name": "Clavet",
-        "network": "WYAMZ",
-        "province": "SK",
-        "reading_date": "2026-11-27T07:00:00+00:00",
-        "source_url": "https://wyamz.ca/clavet-air-quality/",
-        "NO": 1.2,
-        "NO2": 2.2,
-        "NOX": 3.3,
-        "O3": 22.1,
-        "PM2.5": 3.0,
-        "TEMP": 2.8,
-        "WS": 2.7,
-        "WD": 226.6,
-        "RH": 75.0,
-        "AP": 938.9,
-        "AQI": 11.0,
-        "AQHI_calc": 1.55,
-        "aqhi_display": 2,
-        "aqhi_color": "#0099cb",
-        "aqhi_category": "Low"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.1333,
           51.9167
         ]
@@ -46,16 +14,16 @@
         "station_name": "Kerrobert",
         "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-27T07:00:00+00:00",
+        "reading_date": "2026-11-27T08:00:00+00:00",
         "source_url": "https://wyamz.ca/kindersley-air-quality/",
         "SO2": 0.3,
-        "H2S": 0.2,
-        "PM2.5": 2.0,
-        "TEMP": 1.2,
-        "WS": 4.8,
-        "WD": 267.5,
-        "RH": 74.0,
-        "AP": 921.5,
+        "H2S": 0.1,
+        "PM2.5": 3.0,
+        "TEMP": 1.1,
+        "WS": 4.9,
+        "WD": 287.6,
+        "RH": 73.8,
+        "AP": 921.9,
         "AQI": 2.0,
         "aqhi_display": null,
         "aqhi_color": "#D3D3D3",
@@ -107,19 +75,19 @@
         "station_name": "East Regina",
         "network": "GPAZ",
         "province": "SK",
-        "reading_date": "2026-11-27T08:00:00+00:00",
+        "reading_date": "2026-11-27T09:00:00+00:00",
         "source_url": "https://www.gpaz.org/airquality/airqualityCB.php?CB=EastRegina",
         "NO": 0.0,
-        "NO2": 1.1,
-        "NOX": 0.9,
-        "SO2": 1.4,
+        "NO2": 3.1,
+        "NOX": 3.0,
+        "SO2": 1.6,
         "H2S": 0.0,
-        "O3": 23.7,
-        "PM2.5": 1.0,
-        "TEMP": 4.23,
-        "WS": 5.7,
-        "WD": 259.0,
-        "RH": 75.1,
+        "O3": 20.3,
+        "PM2.5": 1.8,
+        "TEMP": 3.07,
+        "WS": 3.9,
+        "WD": 264.0,
+        "RH": 79.6,
         "AP": 0.0,
         "PRE": 0.0,
         "AQHI_calc": 1.38,
@@ -133,156 +101,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.7194,
-          49.1936
+          -106.4,
+          52.2667
         ]
       },
       "properties": {
-        "station_name": "Glen Ewen",
-        "network": "SESAA",
+        "station_name": "Clavet",
+        "network": "WYAMZ",
         "province": "SK",
-        "reading_date": "2026-11-27T03:00:00+00:00",
-        "source_url": "https://sesaa.ca/glen-ewen-air-quality/",
-        "TEMP": 3.6,
-        "WS": 2.3,
-        "WD": 184.7,
-        "RH": 76.9,
-        "AP": 941.6,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null,
-        "held": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.1667,
-          49.2333
-        ]
-      },
-      "properties": {
-        "station_name": "Oxbow",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-27T03:00:00+00:00",
-        "source_url": "https://sesaa.ca/oxbow-air-quality/",
-        "PM2.5": 6.0,
-        "TEMP": 3.1,
-        "WS": 2.4,
-        "WD": 155.8,
-        "RH": 76.5,
-        "AP": 942.6,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null,
-        "held": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.05,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Stoughton",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-27T03:00:00+00:00",
-        "source_url": "https://sesaa.ca/stoughton-air-quality/",
-        "PM2.5": 3.8,
-        "TEMP": 3.1,
-        "WS": 2.2,
-        "WD": 268.8,
-        "RH": 69.7,
-        "AP": 935.6,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null,
-        "held": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.5333,
-          49.1333
-        ]
-      },
-      "properties": {
-        "station_name": "Torquay",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-27T03:00:00+00:00",
-        "source_url": "https://sesaa.ca/torquay-air-quality/",
-        "SO2": 0.1,
-        "H2S": -0.5,
-        "PM2.5": 5.9,
-        "TEMP": 5.1,
-        "WS": 4.0,
-        "WD": 215.5,
-        "RH": 63.5,
-        "AP": 940.0,
-        "AQI": 5.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null,
-        "held": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.85,
-          49.6608
-        ]
-      },
-      "properties": {
-        "station_name": "Weyburn",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-27T03:00:00+00:00",
-        "source_url": "https://sesaa.ca/weyburn-air-quality/",
-        "SO2": 41.9,
-        "PM2.5": 1.4,
-        "WS": 3.7,
-        "WD": 218.6,
-        "AP": 57.6,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null,
-        "held": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.9667,
-          49.6667
-        ]
-      },
-      "properties": {
-        "station_name": "Wauchope",
-        "network": "SESAA",
-        "province": "SK",
-        "reading_date": "2026-11-27T03:00:00+00:00",
-        "source_url": "https://sesaa.ca/wauchope-air-quality/",
-        "PM2.5": -4.0,
-        "aqhi_display": null,
-        "aqhi_color": "#D3D3D3",
-        "aqhi_category": null,
+        "reading_date": "2026-11-27T07:00:00+00:00",
+        "source_url": "https://wyamz.ca/clavet-air-quality/",
+        "NO": 1.2,
+        "NO2": 2.2,
+        "NOX": 3.3,
+        "O3": 22.1,
+        "PM2.5": 3.0,
+        "TEMP": 2.8,
+        "WS": 2.7,
+        "WD": 226.6,
+        "RH": 75.0,
+        "AP": 938.9,
+        "AQI": 11.0,
+        "AQHI_calc": 1.55,
+        "aqhi_display": 2,
+        "aqhi_color": "#0099cb",
+        "aqhi_category": "Low",
         "held": true
       }
     }
